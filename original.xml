@@ -1,0 +1,3634 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2021-09-28T20:03:22Z" uuid="0dca4203-748f-42b9-ac81-61425fdf13db">
+    <config xmlns="http://www.xfa.org/schema/xci/3.0/">
+        <agent name="designer">
+            <!--  [0..n]  -->
+            <destination>pdf</destination>
+            <pdf>
+                <!--  [0..n]  -->
+                <fontInfo/>
+            </pdf>
+        </agent>
+        <present>
+            <!--  [0..n]  -->
+            <pdf>
+                <!--  [0..n]  -->
+                <fontInfo>
+                    <embed>1</embed>
+                </fontInfo>
+                <tagged>1</tagged>
+                <version>1.7</version>
+                <adobeExtensionLevel>8</adobeExtensionLevel>
+                <renderPolicy>client</renderPolicy>
+                <creator>Designer 6.5</creator>
+                <producer>Designer 6.5</producer>
+                <scriptModel>XFA</scriptModel>
+                <interactive>1</interactive>
+                <encryption>
+                    <encrypt>1</encrypt>
+                    <encryptionLevel>128bit</encryptionLevel>
+                    <permissions>
+                        <accessibleContent>1</accessibleContent>
+                        <contentCopy>1</contentCopy>
+                        <documentAssembly>0</documentAssembly>
+                        <formFieldFilling>1</formFieldFilling>
+                        <modifyAnnots>1</modifyAnnots>
+                        <print>1</print>
+                        <printHighQuality>1</printHighQuality>
+                        <change>0</change>
+                        <plaintextMetadata>0</plaintextMetadata>
+                    </permissions>
+                </encryption>
+                <compression>
+                    <level>6</level>
+                    <compressLogicalStructure>1</compressLogicalStructure>
+                    <compressObjectStream>1</compressObjectStream>
+                </compression>
+                <linearized>1</linearized>
+                <silentPrint>
+                    <addSilentPrint>0</addSilentPrint>
+                    <printerName/>
+                </silentPrint>
+                <viewerPreferences>
+                    <duplexOption>simplex</duplexOption>
+                    <numberOfCopies>0</numberOfCopies>
+                    <printScaling>appDefault</printScaling>
+                    <pickTrayByPDFSize>0</pickTrayByPDFSize>
+                    <enforce/>
+                    <ADBE_JSDebugger>delegate</ADBE_JSDebugger>
+                    <ADBE_JSConsole>delegate</ADBE_JSConsole>
+                    <addViewerPreferences>0</addViewerPreferences>
+                </viewerPreferences>
+            </pdf>
+            <common>
+                <log>
+                    <to>memory</to>
+                    <mode>overwrite</mode>
+                </log>
+                <template>
+                    <base>\\Mac\WordWizards\Forms\FDA\2253\59397\02-Working\andy\</base>
+                </template>
+            </common>
+            <cache>
+                <macroCache/>
+            </cache>
+            <script>
+                <runScripts>server</runScripts>
+            </script>
+            <xdp>
+                <packets>*</packets>
+            </xdp>
+            <destination>pdf</destination>
+            <output>
+                <to>uri</to>
+                <uri>\\Mac\WordWizards\Forms\FDA\2253\59397\02-Working\andy\FDA-2253_Dyn_Sec_09-28-2021.pdf</uri>
+            </output>
+        </present>
+        <psMap>
+            <font posture="normal" psName="GoudyOldStyleT-Regular" typeface="Goudy Old Style" weight="normal"/>
+            <font posture="normal" psName="GoudyOldStyleT-Bold" typeface="Goudy Old Style" weight="bold"/>
+            <font posture="normal" psName="Futura-ExtraBold" typeface="Futura-ExtraBold" weight="bold"/>
+        </psMap>
+        <acrobat>
+            <acrobat7>
+                <dynamicRender>required</dynamicRender>
+            </acrobat7>
+            <common>
+                <versionControl sourceBelow="maintain"/>
+                <data>
+                    <xsl>
+                        <uri/>
+                    </xsl>
+                    <outputXSL>
+                        <uri/>
+                    </outputXSL>
+                </data>
+                <template>
+                    <base>\\Mac\WordWizards\Forms\FDA\2253\59397\02-Working\andy\</base>
+                    <relevant/>
+                    <uri/>
+                </template>
+            </common>
+            <autoSave/>
+            <validate>preSubmit</validate>
+        </acrobat>
+    </config>
+    
+    <template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+        <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+        <?formServer allowRenderCaching 0?>
+        <?formServer formModel both?>
+        <subform layout="tb" locale="en_US" name="FDA-2253" restoreState="auto">
+            <pageSet>
+                <pageArea id="Page3_ID" name="PageArea1">
+                    <medium long="792pt" short="612pt" stock="custom"/>
+                    <draw h="718.001pt" name="OuterRectangle" w="551.001pt" x="10.76mm" y="12.171mm">
+                        <value>
+                            <rectangle>
+                                <edge thickness="1.4pt"/>
+                                <corner radius=".01mm"/>
+                            </rectangle>
+                        </value>
+                    </draw>
+                    <contentArea h="253.294mm" name="ContentArea1" w="194.381mm" x="10.584mm" y="12.172mm"/>
+                    <draw minH="0.173in" name="Footer1" w="35.642mm" x="10.567mm" y="266.167mm">
+                        <value>
+                            <text>FORM FDA 2253 (10/21)</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <traversal>
+                            <traverse ref="Footer2[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.166in" name="Footer2" w="2.099in" x="48.311mm" y="266.167mm">
+                        <value>
+                            <text>PREVIOUS EDITION IS OBSOLETE</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="9pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="Pages[0]"/>
+                        </traversal>
+                    </draw>
+                    <field access="readOnly" h="4.394mm" id="floatingField011352" name="CurrentPage" presence="hidden" w="18.034mm" x="106.959mm" y="266.167mm">
+                        <ui>
+                            <numericEdit>
+                                <border>
+                                    <edge stroke="lowered"/>
+                                </border>
+                                <margin/>
+                            </numericEdit>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="14.6229mm">
+                            <para vAlign="middle"/>
+                            <value>
+                                <text>Text Field</text>
+                            </value>
+                        </caption>
+                        <calculate override="error"/>
+                        <event activity="ready" name="event__layout_ready" ref="$layout">
+                            <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this);
+</script>
+                        </event>
+                        <?templateDesigner floatingFieldPlaceholder #?>
+                        <bind match="none"/>
+                    </field>
+                    <field access="readOnly" h="4.394mm" id="floatingField003435" name="PageCount" presence="hidden" w="18.034mm" x="106.959mm" y="266.167mm">
+                        <ui>
+                            <numericEdit>
+                                <border>
+                                    <edge stroke="lowered"/>
+                                </border>
+                                <margin/>
+                            </numericEdit>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="14.6229mm">
+                            <para vAlign="middle"/>
+                            <value>
+                                <text>Text Field</text>
+                            </value>
+                        </caption>
+                        <calculate override="error"/>
+                        <event activity="ready" name="event__layout_ready" ref="$layout">
+                            <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount();
+</script>
+                        </event>
+                        <?templateDesigner floatingFieldPlaceholder ##?>
+                        <bind match="none"/>
+                    </field>
+                    <draw minH="4.394mm" minW="18.034mm" name="Pages" x="106.959mm" y="266.167mm">
+                        <ui>
+                            <textEdit>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <value>
+                            <exData contentType="text/html" maxLength="0">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p>
+                                        Page
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        <span xfa:embed="#floatingField011352" xfa:embedMode="raw" xfa:embedType="uri"/>
+                                         of
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        <span xfa:embed="#floatingField003435" xfa:embedMode="raw" xfa:embedType="uri"/>
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <para vAlign="middle"/>
+                        <traversal>
+                            <traverse ref="Slug2[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.091in" name="Slug1" w="34.564mm" x="170.663mm" y="267.107mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p>
+                                        PSC Publishing Services (301) 443-6740
+                                        <span style="xfa-spacerun:yes">       </span>
+                                        <span style="font-size:6pt">EF</span>
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="5pt" typeface="Times New Roman"/>
+                    </draw>
+                    <?templateDesigner expand 1?>
+                </pageArea>
+                <pageArea id="Page3_ID025951" name="PageArea2">
+                    <medium long="792pt" short="612pt" stock="custom"/>
+                    <draw h="254.706mm" name="OuterRectangle" w="551.001pt" x="10.759mm" y="10.76mm">
+                        <value>
+                            <rectangle>
+                                <edge thickness="1.4pt"/>
+                                <corner radius=".01mm"/>
+                            </rectangle>
+                        </value>
+                    </draw>
+                    <contentArea h="254.706mm" id="ContentArea2_ID" name="ContentArea2" w="194.381mm" x="10.584mm" y="10.76mm"/>
+                    <draw minH="0.173in" name="Footer1" w="35.642mm" x="10.566mm" y="266.167mm">
+                        <value>
+                            <text>FORM FDA 2253 (10/21)</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <traversal>
+                            <traverse ref="Footer2[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.166in" name="Footer2" w="2.099in" x="48.311mm" y="266.167mm">
+                        <value>
+                            <text>PREVIOUS EDITION IS OBSOLETE</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="9pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="Pages[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="4.394mm" minW="18.034mm" name="Pages" x="106.959mm" y="266.167mm">
+                        <ui>
+                            <textEdit>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <value>
+                            <exData contentType="text/html" maxLength="0">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p>
+                                        Page
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        <span xfa:embed="#floatingField013211" xfa:embedMode="raw" xfa:embedType="uri"/>
+                                         of
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        <span xfa:embed="#floatingField015941" xfa:embedMode="raw" xfa:embedType="uri"/>
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <para vAlign="middle"/>
+                    </draw>
+                    <field access="readOnly" h="4.394mm" id="floatingField013211" name="CurrentPage" presence="hidden" w="18.034mm" x="106.959mm" y="266.167mm">
+                        <ui>
+                            <numericEdit>
+                                <border>
+                                    <edge stroke="lowered"/>
+                                </border>
+                                <margin/>
+                            </numericEdit>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="14.6229mm">
+                            <para vAlign="middle"/>
+                            <value>
+                                <text>Text Field</text>
+                            </value>
+                        </caption>
+                        <calculate override="error"/>
+                        <event activity="ready" name="event__layout_ready" ref="$layout">
+                            <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this);
+</script>
+                        </event>
+                        <?templateDesigner floatingFieldPlaceholder #?>
+                        <bind match="none"/>
+                    </field>
+                    <field access="readOnly" h="4.394mm" id="floatingField015941" name="PageCount" presence="hidden" w="18.034mm" x="106.959mm" y="266.167mm">
+                        <ui>
+                            <numericEdit>
+                                <border>
+                                    <edge stroke="lowered"/>
+                                </border>
+                                <margin/>
+                            </numericEdit>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="14.6229mm">
+                            <para vAlign="middle"/>
+                            <value>
+                                <text>Text Field</text>
+                            </value>
+                        </caption>
+                        <calculate override="error"/>
+                        <event activity="ready" name="event__layout_ready" ref="$layout">
+                            <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount();
+</script>
+                        </event>
+                        <?templateDesigner floatingFieldPlaceholder ##?>
+                        <bind match="none"/>
+                    </field>
+                    <?templateDesigner expand 0?>
+                </pageArea>
+                <?templateDesigner expand 1?>
+            </pageSet>
+            <desc>
+                <text name="title">FORM FDA 2253</text>
+                <text name="creator">PSC Publishing Services</text>
+                <text name="description">Transmittal of Advertisements and Promotional Labeling for Drugs and Biologics for Human Use</text>
+            </desc>
+            <subform layout="tb" name="Page1" w="194.38mm">
+                <subform name="FormStart" w="194.38mm">
+                    <draw h="27.432mm" name="L17" w="0pt" x="148.146mm" y="0.175mm">
+                        <value>
+                            <line slope="/">
+                                <edge cap="butt" thickness="0.8pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="4.115mm" name="T21" w="2.149in" x="1.523mm" y="29.29mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">2. Application Information</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="T21[2]"/>
+                        </traversal>
+                    </draw>
+                    <draw h="4.115mm" name="T21" w="25.413mm" x="5.253mm" y="41.324mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p style="line-height:12pt;font-family:Arial;font-size:8pt">Application Number:</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_nda_bla_nmbr[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 72037 11665 0 0 0 0 0 0?>
+                        <?renderCache.textRun 19 Application Number: 0 0 8148 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+                    </draw>
+                    <draw h="4.115mm" name="T21" w="22.025mm" x="5.253mm" y="35.254mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p style="line-height:12pt;font-family:Arial;font-size:8pt">Application Type:</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_nda_bla[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 62433 11665 0 0 0 0 0 0?>
+                        <?renderCache.textRun 17 Application Type: 0 0 8148 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+                    </draw>
+                    <field h="5.528mm" name="db_nda_bla" w="22.418mm" x="28.092mm" y="34.605mm">
+                        <ui>
+                            <choiceList>
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </choiceList>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <assist>
+                            <speak>Please select the type of number from the six choices in the drop-down list. </speak>
+                        </assist>
+                        <traversal>
+                            <traverse ref="T21[1]"/>
+                        </traversal>
+                        <items save="1">
+                            <text>NDA</text>
+                            <text>ANDA</text>
+                            <text>BLA</text>
+                            <text>PMA</text>
+                            <text>CDER IND</text>
+                        </items>
+                    </field>
+                    <field h="5.528mm" name="db_nda_bla_nmbr" w="12.635mm" x="32.307mm" y="40.675mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <assist>
+                            <speak>Please enter the correct number of digits, corresponding to the type of number you selected. </speak>
+                        </assist>
+                        <traversal>
+                            <traverse ref="T21[3]"/>
+                        </traversal>
+                        <validate>
+                            <script contentType="application/x-javascript">
+DocScripts.requiredLength(this,1,6,0);
+</script>
+                        </validate>
+                        <value>
+                            <text maxChars="6"/>
+                        </value>
+                    </field>
+                    <draw h="4.115mm" name="T21" w="1.616mm" x="45.576mm" y="41.324mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p style="line-height:12pt;font-family:Arial;font-size:8pt">
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        /
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_nda_bla_nmbr_pt2[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 4581 11665 0 0 0 0 0 0?>
+                        <?renderCache.textRun 2  / 0 0 8148 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+                    </draw>
+                    <field h="5.528mm" name="db_nda_bla_nmbr_pt2" w="12.635mm" x="48.504mm" y="40.675mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <assist>
+                            <speak>Please enter the correct number of digits, corresponding to the type of number you selected. </speak>
+                        </assist>
+                        <traversal>
+                            <traverse ref="prodGrp[0]"/>
+                        </traversal>
+                        <validate>
+                            <script contentType="application/x-javascript">
+DocScripts.requiredLength(this,1,4,0);
+</script>
+                        </validate>
+                        <value>
+                            <text maxChars="4"/>
+                        </value>
+                    </field>
+                    <draw h="0pt" name="L24" w="46.234mm" x="148.146mm" y="14.816mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.2462mm"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw minH="0.166in" name="T1" w="1.703in" x="53.058mm" y="6.142mm">
+                        <value>
+                            <text>Food and Drug Administration</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="9pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="T2[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw h="14.417mm" name="T2" w="143.825mm" x="2.7mm" y="11.344mm">
+                        <value>
+                            <text>TRANSMITTAL OF ADVERTISEMENTS AND PROMOTIONAL
+LABELING FOR DRUGS AND BIOLOGICS FOR HUMAN USE</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para hAlign="center" vAlign="middle"/>
+                        <font size="14pt" typeface="Arial" weight="bold"/>
+                        <traversal>
+                            <traverse ref="Header[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 407693 40867 0 0 0 0 0 0?>
+                        <?renderCache.textRun 46 TRANSMITTAL OF ADVERTISEMENTS AND PROMOTIONAL  0 4353 16087 0 0 0 "Arial" 1 0 14000 ISO-8859-1?>
+                        <?renderCache.textRun 46 LABELING FOR DRUGS AND BIOLOGICS FOR HUMAN USE 0 4736 32887 0 0 0 "Arial" 1 0 14000 ISO-8859-1?>
+                    </draw>
+                    <draw minH="0.162in" name="T20" w="1.027in" x="149.598mm" y="15.904mm">
+                        <value>
+                            <text>1. Date Submitted</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_sbmsn_date[0]"/>
+                        </traversal>
+                    </draw>
+                    <subform h="3.808mm" name="prodGrp" w="53.727mm" x="68.027mm" y="29.29mm">
+                        <traversal>
+                            <traverse ref="T38[0]"/>
+                            <traverse operation="first" ref="single[0]"/>
+                        </traversal>
+                        <subform h="3.808mm" name="single" w="23.699mm" x="0mm" y="0mm">
+                            <traversal>
+                                <traverse operation="first" ref="T25[0]"/>
+                                <traverse ref="multiple[0]"/>
+                            </traversal>
+                            <draw minH="0.147in" name="T25" w="0.759in" x="4.42mm" y="0mm">
+                                <value>
+                                    <text>Single product</text>
+                                </value>
+                                <ui>
+                                    <textEdit/>
+                                </ui>
+                                <para vAlign="middle"/>
+                                <font size="8pt" typeface="ArialMT"/>
+                                <traversal>
+                                    <traverse ref="db_single_product[0]"/>
+                                </traversal>
+                            </draw>
+                            <field h="3.808mm" name="db_single_product" w="4.024mm" x="0mm" y="0mm">
+                                <ui>
+                                    <checkButton size="2.8222mm">
+                                        <border presence="hidden">
+                                            <?templateDesigner StyleID apcb0?>
+                                        </border>
+                                    </checkButton>
+                                </ui>
+                                <font typeface="Myriad Pro"/>
+                                <margin leftInset="1mm" rightInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <value>
+                                    <integer>0</integer>
+                                </value>
+                                <items>
+                                    <integer>1</integer>
+                                    <integer>0</integer>
+                                    <integer>2</integer>
+                                </items>
+                                <assist>
+                                    <speak>If this is a single product, check this box by pressing the space bar or number pad slash key.</speak>
+                                </assist>
+                                <event activity="change" name="event__change">
+                                    <script contentType="application/x-javascript">multiple.db_multi_products.rawValue = 0;
+</script>
+                                </event>
+                                <traversal>
+                                    <traverse ref="multiple[0]"/>
+                                </traversal>
+                            </field>
+                            <assist role="LI"/>
+                            <?templateDesigner expand 1?>
+                        </subform>
+                        <subform h="3.808mm" name="multiple" w="27.253mm" x="26.474mm" y="0mm">
+                            <traversal>
+                                <traverse operation="first" ref="T27[0]"/>
+                            </traversal>
+                            <draw minH="0.147in" name="T27" w="0.901in" x="4.368mm" y="0mm">
+                                <value>
+                                    <exData contentType="text/html">
+                                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                            <p style="font-family:Arial">Multiple products</p>
+                                        </body>
+                                    </exData>
+                                </value>
+                                <ui>
+                                    <textEdit/>
+                                </ui>
+                                <para vAlign="middle"/>
+                                <font size="8pt" typeface="ArialMT"/>
+                                <traversal>
+                                    <traverse ref="db_multi_products[0]"/>
+                                </traversal>
+                            </draw>
+                            <field h="3.808mm" name="db_multi_products" w="4.024mm" x="0mm" y="0mm">
+                                <ui>
+                                    <checkButton size="2.8222mm">
+                                        <border presence="hidden">
+                                            <?templateDesigner StyleID apcb0?>
+                                        </border>
+                                    </checkButton>
+                                </ui>
+                                <font typeface="Myriad Pro"/>
+                                <margin leftInset="1mm" rightInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <value>
+                                    <integer>0</integer>
+                                </value>
+                                <items>
+                                    <integer>1</integer>
+                                    <integer>0</integer>
+                                    <integer>2</integer>
+                                </items>
+                                <assist>
+                                    <speak>If this form is for multiple products, check this box by pressing the space bar or number pad slash key.</speak>
+                                </assist>
+                                <event activity="change" name="event__change">
+                                    <script contentType="application/x-javascript">single.db_single_product.rawValue = 0;
+</script>
+                                </event>
+                                <traversal>
+                                    <traverse ref="T38[0]"/>
+                                </traversal>
+                            </field>
+                            <assist role="LI"/>
+                            <?templateDesigner expand 1?>
+                        </subform>
+                        <assist role="UL"/>
+                        <?templateDesigner expand 0?>
+                    </subform>
+                    <draw h="18.628mm" name="T38" w="67.774mm" x="125.867mm" y="28.674mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p style="font-family:Arial">For multiple products, submit completed form and specimen of advertising/promotional materials to one application of choice, and attach separate sheet addressing items 3-5 for remainder of products. Refer to No. 3 on instruction sheet.</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="item3to7[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 192115 52804 0 0 0 0 0 0?>
+                        <?renderCache.textRun 49 For multiple products, submit completed form and  0 0 9518 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+                        <?renderCache.textRun 53 specimen of advertising/promotional materials to one  0 0 19118 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+                        <?renderCache.textRun 49 application of choice, and attach separate sheet  0 0 28718 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+                        <?renderCache.textRun 54 addressing items 3-5 for remainder of products. Refer  0 0 38318 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+                        <?renderCache.textRun 30 to No. 3 on instruction sheet. 0 0 47918 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+                    </draw>
+                    <margin bottomInset="0.9119mm"/>
+                    <field h="6.091mm" name="db_sbmsn_date" w="38.866mm" x="153.326mm" y="20.449mm">
+                        <ui>
+                            <dateTimeEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </dateTimeEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <value>
+                            <date/>
+                        </value>
+                        <format>
+                            <picture>date{MM/DD/YYYY}</picture>
+                        </format>
+                        <assist>
+                            <speak>Please type the date of submission in 2 digit month / 2 digit day / 4 digit year format.</speak>
+                        </assist>
+                        <event activity="exit" name="event__exit">
+                            <script contentType="application/x-javascript">
+DocScripts.checkDate(this);
+</script>
+                        </event>
+                        <traversal>
+                            <traverse ref="T21[0]"/>
+                        </traversal>
+                    </field>
+                    <draw h="4.394mm" name="T0" w="3.129694in" x="35.126mm" y="1.583mm">
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <value>
+                            <text>DEPARTMENT OF HEALTH AND HUMAN SERVICES</text>
+                        </value>
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <traversal>
+                            <traverse ref="T1[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 222504 9621 0 0 1417 1417 0 0?>
+                        <?renderCache.textRun 39 DEPARTMENT OF HEALTH AND HUMAN SERVICES 0 1417 8523 0 0 0 "Arial" 1 0 9000 ISO-8859-1?>
+                    </draw>
+                    <draw h="0pt" name="L53" w="551pt" y="48.391mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="1pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <traversal>
+                        <traverse operation="first" ref="T0[0]"/>
+                        <traverse ref="item3to7[0]"/>
+                    </traversal>
+                    <draw h="10.529mm" name="Header" w="42.841mm" x="149.598mm" y="2.403mm">
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="text-decoration:none;letter-spacing:0in">Form Approved: OMB No. 0910-0001</p>
+                                    <p style="text-decoration:none;letter-spacing:0in">Expiration Date: March 31, 2024</p>
+                                    <p style="font-style:italic;text-decoration:none;letter-spacing:0in">See PRA Statement on last page.</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <font baselineShift="0pt" size="7pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                        <traversal>
+                            <traverse ref="T20[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw h="0pt" name="L53" w="551pt" y="27.544mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="1pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <?templateDesigner expand 0?>
+                </subform>
+                <subform h="45.833mm" name="item3to7" w="194.381mm">
+                    <draw h="0pt" name="L45" w="551pt" y="4.938mm">
+                        <value>
+                            <line>
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="42pt" name="L49" w="0pt" x="97.366mm" y="4.938mm">
+                        <value>
+                            <line slope="/">
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L46" w="551pt" y="19.754mm">
+                        <value>
+                            <line>
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="42pt" name="L50" w="0pt" x="97.366mm" y="19.754mm">
+                        <value>
+                            <line slope="/">
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L16" w="551pt" y="34.572mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.8pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L56" w="551pt" y="35.629mm">
+                        <value>
+                            <line>
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L47" w="551pt" y="40.569mm">
+                        <value>
+                            <line>
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <traversal>
+                        <traverse operation="first" ref="T43[0]"/>
+                        <traverse ref="Item8[0]"/>
+                    </traversal>
+                    <draw h="3.302mm" name="T43" w="194.143mm" x="0.237mm" y="0.493mm">
+                        <value>
+                            <text>NOTE: Form FDA 2253 is required by law. Reports are required for approved NDAs, ANDAs (21 CFR 314.81), and BLAs (601.12(f)(4))</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="Arial" weight="bold"/>
+                        <traversal>
+                            <traverse ref="T6[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 550327 9360 0 0 0 0 0 0?>
+                        <?renderCache.textRun 126 NOTE: Form FDA 2253 is required by law. Reports are required for approved NDAs, ANDAs (21 CFR 314.81), and BLAs (601.12(f)(4)) 0 0 7228 0 0 0 "Arial" 1 0 8800 ISO-8859-1?>
+                    </draw>
+                    <draw minH="0.162in" name="T6" w="1.159in" x="1.405mm" y="5.141mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">3. Proprietary Name</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_trade_name[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.162in" name="T12" w="1.194in" x="98.407mm" y="5.141mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">4. Established Name</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_established_name[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.147in" name="T51" w="0.963in" x="102.649mm" y="15.352mm">
+                        <value>
+                            <text>Product Code No.:</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_prdct_code[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw h="7.853mm" name="T7" w="2.172in" x="1.405mm" y="19.95mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">
+                                        5.
+                                        <span style="xfa-spacerun:yes">  </span>
+                                        Package Insert Date and ID Number
+                                        <span style="xfa-spacerun:yes"> </span>
+                                    </p>
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">
+                                        <span style="xfa-spacerun:yes">     </span>
+                                        (Latest final printed labeling)
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_insert_date_id_nmbr[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.162in" name="T13" w="1.282in" x="98.407mm" y="19.95mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">6. Manufacturer Name</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_manufacturer_name[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.147in" name="T52" w="1.216in" x="102.649mm" y="30.186mm">
+                        <value>
+                            <text>License No. (Biologics):</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_license_nmbr[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.162in" name="T11" w="0.151in" x="1.405mm" y="36.18mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">7.</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="T44[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.169in" name="T44" w="2.814in" x="62.238mm" y="36.18mm">
+                        <value>
+                            <text>Advertisement / Promotional Labeling Materials</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="Arial" weight="bold"/>
+                        <traversal>
+                            <traverse ref="T9[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.147in" name="T9" w="0.173in" x="3.513mm" y="41.921mm">
+                        <value>
+                            <text>a. </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="T10[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.154in" name="T10" w="1.272in" x="6.688mm" y="41.921mm">
+                        <value>
+                            <text>Please check only one:</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="Arial" weight="bold"/>
+                        <traversal>
+                            <traverse ref="#subform[0]"/>
+                        </traversal>
+                    </draw>
+                    <subform h="3.937mm" name="lbl" w="48.547mm" x="42.596mm" y="41.718mm">
+                        <traversal>
+                            <traverse operation="first" ref="prof[0]"/>
+                        </traversal>
+                        <subform h="3.937mm" name="prof" w="21.445mm" x="0mm" y="0mm">
+                            <traversal>
+                                <traverse operation="first" ref="T26[0]"/>
+                                <traverse ref="cons[0]"/>
+                            </traversal>
+                            <draw minH="0.147in" name="T26" w="0.661in" x="4.656mm" y="0.203mm">
+                                <value>
+                                    <text>Professional</text>
+                                </value>
+                                <ui>
+                                    <textEdit/>
+                                </ui>
+                                <para vAlign="middle"/>
+                                <font size="8pt" typeface="ArialMT"/>
+                                <traversal>
+                                    <traverse ref="db_professional[0]"/>
+                                </traversal>
+                            </draw>
+                            <field h="3.808mm" name="db_professional" w="4.024mm" x="0mm" y="0mm">
+                                <ui>
+                                    <checkButton size="2.8222mm">
+                                        <border presence="hidden">
+                                            <?templateDesigner StyleID apcb0?>
+                                        </border>
+                                    </checkButton>
+                                </ui>
+                                <font typeface="Myriad Pro"/>
+                                <margin leftInset="1mm" rightInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <value>
+                                    <integer>0</integer>
+                                </value>
+                                <items>
+                                    <integer>1</integer>
+                                    <integer>0</integer>
+                                    <integer>2</integer>
+                                </items>
+                                <assist>
+                                    <speak>If the labeling is for professional use, check this box by pressing the space bar or number pad slash key.</speak>
+                                </assist>
+                                <traversal>
+                                    <traverse ref="cons[0]"/>
+                                </traversal>
+                                <bind match="global"/>
+                                <event activity="change" name="event__change">
+                                    <script contentType="application/x-javascript">cons.db_consumer.rawValue = 0;
+</script>
+                                </event>
+                            </field>
+                            <assist role="LI"/>
+                            <?templateDesigner expand 1?>
+                        </subform>
+                        <subform h="3.935mm" name="cons" w="18.876mm" x="29.671mm" y="0.002mm">
+                            <traversal>
+                                <traverse operation="first" ref="T28[0]"/>
+                            </traversal>
+                            <draw minH="0.147in" name="T28" w="0.561in" x="4.627mm" y="0.201mm">
+                                <value>
+                                    <text>Consumer</text>
+                                </value>
+                                <ui>
+                                    <textEdit/>
+                                </ui>
+                                <para vAlign="middle"/>
+                                <font size="8pt" typeface="ArialMT"/>
+                                <traversal>
+                                    <traverse ref="db_consumer[0]"/>
+                                </traversal>
+                            </draw>
+                            <field h="3.808mm" name="db_consumer" w="4.024mm" x="0mm" y="0mm">
+                                <ui>
+                                    <checkButton size="2.8222mm">
+                                        <border presence="hidden">
+                                            <?templateDesigner StyleID apcb0?>
+                                        </border>
+                                    </checkButton>
+                                </ui>
+                                <font typeface="Myriad Pro"/>
+                                <margin leftInset="1mm" rightInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <value>
+                                    <integer>0</integer>
+                                </value>
+                                <items>
+                                    <integer>1</integer>
+                                    <integer>0</integer>
+                                    <integer>2</integer>
+                                </items>
+                                <assist>
+                                    <speak>If the labeling is for consumer use, check this box by pressing the space bar or number pad slash key.</speak>
+                                </assist>
+                                <bind match="global"/>
+                                <traversal>
+                                    <traverse ref="Item8[0]"/>
+                                </traversal>
+                                <event activity="change" name="event__change">
+                                    <script contentType="application/x-javascript">prof.db_professional.rawValue = 0;
+</script>
+                                </event>
+                            </field>
+                            <assist role="LI"/>
+                            <?templateDesigner expand 1?>
+                        </subform>
+                        <assist role="UL"/>
+                        <?templateDesigner expand 0?>
+                    </subform>
+                    <field h="8.261mm" name="db_trade_name" w="91.192mm" x="4.64mm" y="8.319mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <traversal>
+                            <traverse ref="T12[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>Please type the proprietary name here.</speak>
+                        </assist>
+                    </field>
+                    <field h="5.697mm" name="db_established_name" w="90.479mm" x="101.819mm" y="8.248mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <traversal>
+                            <traverse ref="T51[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>Please type the established name here.</speak>
+                        </assist>
+                    </field>
+                    <field h="5.571mm" name="db_prdct_code" w="64.652mm" x="127.634mm" y="14.111mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <traversal>
+                            <traverse ref="T7[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>Please type the product code number here.</speak>
+                        </assist>
+                    </field>
+                    <field h="7.395mm" name="db_insert_date_id_nmbr" w="90.543mm" x="5.289mm" y="27.133mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <assist>
+                            <speak>Please type the package insert I D number here.</speak>
+                            <toolTip>Please type the package insert ID number here.</toolTip>
+                        </assist>
+                        <traversal>
+                            <traverse ref="T13[0]"/>
+                        </traversal>
+                    </field>
+                    <field h="5.697mm" name="db_manufacturer_name" w="90.313mm" x="101.985mm" y="23.225mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <assist>
+                            <speak>Please type the manufacturer name here.</speak>
+                        </assist>
+                        <traversal>
+                            <traverse ref="T52[0]"/>
+                        </traversal>
+                    </field>
+                    <field h="5.528mm" name="db_license_nmbr" w="58.526mm" x="133.772mm" y="29.068mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <traversal>
+                            <traverse ref="T11[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>Please type the Biologics License number here.</speak>
+                        </assist>
+                        <event activity="exit" name="event__exit">
+                            <script contentType="application/x-javascript">
+//var myString = this.rawValue;
+//var validNum = true;
+//var numDigits = myString.length;
+//
+//if  ((myString &lt; 0 ) || (numDigits &gt;  8 ) )  {
+//	validNum = false;
+//} else  {
+//	for (i=0; i &lt; 6 ; i++) {
+//		var oneChar = myString.charAt(i);
+//		if ((isNaN(oneChar)) || (oneChar == " ") || (oneChar == "_")) {
+//			validNum = false;
+//		}
+//	}
+//}
+//if (validNum == false)  {
+//	xfa.host.messageBox("Please enter a number of up to 8 digits.");
+//	this.rawValue = "";
+//	xfa.host.setFocus(this);
+//}
+//true;
+</script>
+                        </event>
+                    </field>
+                    <?templateDesigner expand 0?>
+                </subform>
+                <subform layout="tb" name="item7" w="194.38mm">
+                    <subform columnWidths="36.768mm 22mm 36.768mm 89.29mm 0.375083in" layout="table" name="materialTable">
+                        <border>
+                            <edge/>
+                        </border>
+                        <subform id="HeaderRow_ID_copy1" layout="row" name="HeaderRow">
+                            <assist role="TH"/>
+                            <draw h="14.8158mm" name="Cell1" w="30mm">
+                                <border>
+                                    <edge/>
+                                    <corner thickness="0.1778mm"/>
+                                </border>
+                                <ui>
+                                    <textEdit/>
+                                </ui>
+                                <value>
+                                    <exData contentType="text/html">
+                                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                            <p>Material Type</p>
+                                            <p>(use FDA codes)</p>
+                                            <p style="line-height:7pt">
+                                                <br/>
+                                            </p>
+                                            <p>b.</p>
+                                        </body>
+                                    </exData>
+                                </value>
+                                <font baselineShift="0pt" size="8pt" typeface="Arial"/>
+                                <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                                <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="bottom"/>
+                                <traversal>
+                                    <traverse ref="Cell2[0]"/>
+                                </traversal>
+                            </draw>
+                            <draw h="14.1122mm" name="Cell2" w="30mm">
+                                <border>
+                                    <edge/>
+                                    <corner thickness="0.1778mm"/>
+                                </border>
+                                <ui>
+                                    <textEdit/>
+                                </ui>
+                                <value>
+                                    <exData contentType="text/html">
+                                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                            <p style="margin-top:2pt;text-valign:middle">Dissemination/</p>
+                                            <p style="text-valign:middle">
+                                                Publication
+                                                <span style="xfa-spacerun:yes"> </span>
+                                            </p>
+                                            <p>
+                                                Date
+                                                <span style="xfa-spacerun:yes"> </span>
+                                            </p>
+                                            <p style="text-valign:middle">c.</p>
+                                        </body>
+                                    </exData>
+                                </value>
+                                <font baselineShift="0pt" size="8pt" typeface="Arial"/>
+                                <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                                <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="bottom"/>
+                                <traversal>
+                                    <traverse ref="Cell3[0]"/>
+                                </traversal>
+                            </draw>
+                            <draw h="14.1122mm" name="Cell3" w="30mm">
+                                <border>
+                                    <edge/>
+                                    <corner thickness="0.1778mm"/>
+                                </border>
+                                <ui>
+                                    <textEdit/>
+                                </ui>
+                                <value>
+                                    <exData contentType="text/html">
+                                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                            <p>Material ID Code</p>
+                                            <p>
+                                                <br/>
+                                            </p>
+                                            <p>d.</p>
+                                        </body>
+                                    </exData>
+                                </value>
+                                <font baselineShift="0pt" size="8pt" typeface="Arial"/>
+                                <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                                <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="bottom"/>
+                                <traversal>
+                                    <traverse ref="Cell4[0]"/>
+                                </traversal>
+                            </draw>
+                            <draw h="14.1122mm" name="Cell4" w="30mm">
+                                <border>
+                                    <edge/>
+                                    <corner thickness="0.1778mm"/>
+                                    <edge presence="hidden"/>
+                                    <edge/>
+                                    <edge/>
+                                    <corner presence="hidden" thickness="0.1778mm"/>
+                                    <corner thickness="0.1778mm"/>
+                                    <corner thickness="0.1778mm"/>
+                                </border>
+                                <ui>
+                                    <textEdit/>
+                                </ui>
+                                <value>
+                                    <exData contentType="text/html">
+                                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                            <p>Material Description</p>
+                                            <p>
+                                                <br/>
+                                            </p>
+                                            <p>e.</p>
+                                        </body>
+                                    </exData>
+                                </value>
+                                <font baselineShift="0pt" size="8pt" typeface="Arial"/>
+                                <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                                <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="bottom"/>
+                                <traversal>
+                                    <traverse ref="Cell5[0]"/>
+                                </traversal>
+                            </draw>
+                            <border>
+                                <edge presence="hidden"/>
+                            </border>
+                            <occur max="-1"/>
+                            <draw h="14.1122mm" name="Cell5" w="30mm">
+                                <ui>
+                                    <textEdit>
+                                        <margin/>
+                                    </textEdit>
+                                </ui>
+                                <font baselineShift="0pt" size="8pt" typeface="Arial"/>
+                                <para hAlign="center" vAlign="middle"/>
+                                <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                                <border>
+                                    <edge/>
+                                    <corner thickness="0.1778mm"/>
+                                    <edge/>
+                                    <edge/>
+                                    <edge presence="hidden"/>
+                                    <corner thickness="0.1778mm"/>
+                                    <corner thickness="0.1778mm"/>
+                                    <corner presence="hidden" thickness="0.1778mm"/>
+                                </border>
+                            </draw>
+                            <traversal>
+                                <traverse operation="first" ref="Cell1[0]"/>
+                            </traversal>
+                            <?templateDesigner expand 1?>
+                        </subform>
+                        <subform layout="row" name="materialRow">
+                            <assist role="TR"/>
+                            <field h="5.352mm" name="db_material_type" w="40.216mm">
+                                <ui>
+                                    <choiceList>
+                                        <border presence="hidden">
+                                            <?templateDesigner StyleID aped0?>
+                                        </border>
+                                        <margin/>
+                                    </choiceList>
+                                </ui>
+                                <font size="9pt" typeface="Times New Roman"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <border>
+                                    <edge/>
+                                    <corner thickness="0.1778mm"/>
+                                </border>
+                                <items save="1">
+                                    <text>Audio</text>
+                                    <text>Book</text>
+                                    <text>Carrier</text>
+                                    <text>Carton</text>
+                                    <text>Catalog</text>
+                                    <text>CD-ROM</text>
+                                    <text>Corrective Internet</text>
+                                    <text>Corrective Letter</text>
+                                    <text>Corrective Print Ad</text>
+                                    <text>Corrective TV</text>
+                                    <text>Direct Mail</text>
+                                    <text>Drug Sample</text>
+                                    <text>Electronic Detail Aid</text>
+                                    <text>Exhibit</text>
+                                    <text>File Card</text>
+                                    <text>Form</text>
+                                    <text>Formulary Economic</text>
+                                    <text>Formulary Kit</text>
+                                    <text>Giveaway</text>
+                                    <text>House Organ</text>
+                                    <text>Kit</text>
+                                    <text>Monograph</text>
+                                    <text>PDURS</text>
+                                    <text>Press Release</text>
+                                    <text>Print Ad</text>
+                                    <text>Promotional Labeling</text>
+                                    <text>Radio</text>
+                                    <text>Reply Card</text>
+                                    <text>Reprint</text>
+                                    <text>Sales Aid</text>
+                                    <text>Slides</text>
+                                    <text>Telephone</text>
+                                    <text>Training Materials</text>
+                                    <text>TV</text>
+                                    <text>Video</text>
+                                    <text>Video News Release</text>
+                                    <text>www-audio</text>
+                                    <text>www-banner</text>
+                                    <text>www-ecomm</text>
+                                    <text>www-links</text>
+                                    <text>www-mobile</text>
+                                    <text>www-soc-med</text>
+                                    <text>www-video</text>
+                                    <text>www-website</text>
+                                </items>
+                                <traversal>
+                                    <traverse ref="db_pub_date[0]"/>
+                                </traversal>
+                            </field>
+                            <field h="5.352mm" name="db_pub_date" w="24.694mm">
+                                <ui>
+                                    <dateTimeEdit hScrollPolicy="off">
+                                        <border presence="hidden">
+                                            <?templateDesigner StyleID aped0?>
+                                        </border>
+                                        <margin/>
+                                    </dateTimeEdit>
+                                </ui>
+                                <font size="9pt" typeface="Times New Roman"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para hAlign="center"/>
+                                <value>
+                                    <date/>
+                                </value>
+                                <border>
+                                    <edge/>
+                                    <corner thickness="0.1778mm"/>
+                                </border>
+                                <traversal>
+                                    <traverse ref="db_material_code[0]"/>
+                                </traversal>
+                                <format>
+                                    <picture>date{MM/DD/YYYY}</picture>
+                                </format>
+                                <event activity="exit" name="event__exit">
+                                    <script contentType="application/x-javascript">
+var myString = this.rawValue;
+var validNum = true;
+var numDigits = myString.length;
+var month;
+var day;
+
+if  ((myString &lt; 0) || (numDigits &gt; 0 &amp;&amp; numDigits &lt; 10) || (numDigits &gt; 10) )  {
+	validNum = false;
+} else  {
+	if (myString.charAt(2) == "/") {
+		for (i=0; i &lt; 10 ; i++) {
+			var oneChar = myString.charAt(i);
+			if (i == 2 || i == 5) {
+				if (oneChar != "/") {
+					validNum = false;
+				}
+			} else if ((isNaN(oneChar)) || (oneChar == " ")) {
+				validNum = false;
+			} else {
+				month = parseInt(myString.substring(0,2));
+				day = parseInt(myString.substring(3,5));
+				year = parseInt(myString.substring(6));
+			}
+		}
+	} else {
+		for (i=0; i &lt; 10 ; i++) {
+			var oneChar = myString.charAt(i);
+			if (i == 4 || i == 7) {
+				if (oneChar != "-") {
+					validNum = false;
+				}
+			} else if ((isNaN(oneChar)) || (oneChar == " ")) {
+				validNum = false;
+			} else {
+				year = parseInt(myString.substring(0,4));
+				month = parseInt(myString.substring(5,7));
+				day = parseInt(myString.substring(8));
+			}
+		}
+	}
+	if (month &gt; 12) {
+		validNum = false;
+	} else {
+		if (month == 2) {
+			if ((year%400 == 0) || (year%4 == 0 &amp;&amp; year%100 != 0)) {
+				if (day &gt; 29) {
+					validNum = false;
+				}
+			} else {
+				if (day &gt; 28) {
+					validNum = false;
+				}
+			}
+		} else if (month == 4 || month == 6 || month == 9 || month == 11) {
+			if (day &gt; 30) {
+				validNum = false;
+			}
+		} else if (day &gt; 31) {
+			validNum = false;
+		}
+	}
+}
+if (validNum == false)  {
+	xfa.host.messageBox("Please enter a valid date in 2-digit month / 2-digit day / 4-digit year (MM/DD/YYYY) format.");
+	this.rawValue = "";
+	xfa.host.setFocus(this);
+}
+true;
+</script>
+                                </event>
+                            </field>
+                            <field h="13.953mm" name="db_material_code" w="39.159mm">
+                                <ui>
+                                    <textEdit hScrollPolicy="off">
+                                        <border presence="hidden">
+                                            <?templateDesigner StyleID aped0?>
+                                        </border>
+                                        <margin/>
+                                    </textEdit>
+                                </ui>
+                                <font size="9pt" typeface="Times New Roman"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para hAlign="center"/>
+                                <traversal>
+                                    <traverse ref="db_material_desc[0]"/>
+                                </traversal>
+                                <border>
+                                    <edge/>
+                                    <corner thickness="0.1778mm"/>
+                                </border>
+                                <border>
+                                                            
+                                    <edge/>
+                                                            
+                                    <corner thickness="0.1778mm"/>
+                                                         
+                                </border>
+                            </field>
+                            <field h="13.953mm" name="db_material_desc" w="56.893mm">
+                                <ui>
+                                    <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off">
+                                        <border presence="hidden">
+                                            <?templateDesigner StyleID aped0?>
+                                        </border>
+                                        <margin/>
+                                    </textEdit>
+                                </ui>
+                                <font size="9pt" typeface="Times New Roman"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1.0008mm" topInset="1mm"/>
+                                <border>
+                                    <edge/>
+                                    <corner thickness="0.1778mm"/>
+                                </border>
+                                <traversal>
+                                    <traverse ref="btnDelete[0]"/>
+                                </traversal>
+                            </field>
+                            <border>
+                                <edge presence="hidden"/>
+                            </border>
+                            <occur max="-1"/>
+                            <event activity="initialize" name="event__initialize">
+                                <script contentType="application/x-javascript">
+var rowEnd = "";
+var thisRow = this.index + 1;
+
+if (thisRow%10 == 1 &amp;&amp; thisRow%100 != 11) {
+	rowEnd = "st";
+} else if (thisRow%10 == 2 &amp;&amp; thisRow%100 != 12) {
+	rowEnd = "nd";
+} else if (thisRow%10 == 3 &amp;&amp; thisRow%100 != 13) {
+	rowEnd = "rd";
+} else {
+	rowEnd = "th";
+}
+
+var rowString = thisRow.toString();
+
+var cellSpeech;
+cellSpeech = "Using F D A user codes, located on the information page, please enter the material type for the " + rowString + rowEnd + " material here.";
+db_material_type.assist.speak.value = cellSpeech;
+cellSpeech = "Using FDA user codes, located on the information page, please enter the material type for the " + rowString + rowEnd + " material here.";
+db_material_type.assist.toolTip.value = cellSpeech;
+cellSpeech = "Please type the dissemination or publication date of the " + rowString + rowEnd + " material in 2 digit month / 2 digit day / 4 digit year.";
+db_pub_date.assist.speak.value = cellSpeech;
+db_pub_date.assist.toolTip.value = cellSpeech;
+cellSpeech = "Please type the applicant's material I D Code for the " + rowString + rowEnd + " material here.";
+db_material_code.assist.speak.value = cellSpeech;
+cellSpeech = "Please type the applicant's material ID Code for the " + rowString + rowEnd + " material here.";
+db_material_code.assist.toolTip.value = cellSpeech;
+cellSpeech = "Please type the applicant's material description for the " + rowString + rowEnd + " material here.";
+db_material_desc.assist.speak.value = cellSpeech;
+db_material_desc.assist.toolTip.value = cellSpeech;
+</script>
+                            </event>
+                            <field h="13.953mm" name="btnDelete" w="10.032mm">
+                                <ui>
+                                    <button highlight="push"/>
+                                </ui>
+                                <font typeface="Myriad Pro"/>
+                                <caption>
+                                    <value>
+                                        <text>Delete Row</text>
+                                    </value>
+                                    <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                                    <font baselineShift="0pt" size="9pt" typeface="Myriad Pro"/>
+                                </caption>
+                                <border hand="right">
+                                    <edge stroke="raised"/>
+                                    <fill>
+                                        <color value="255,255,153"/>
+                                    </fill>
+                                </border>
+                                <bind match="none"/>
+                                <event activity="click" name="event__click">
+                                    <script contentType="application/x-javascript">
+
+ if (item7.materialTable._materialRow.count &gt; 1)	{
+	 item7.materialTable._materialRow.removeInstance(materialRow.instanceIndex);
+} else	{
+	xfa.host.messageBox("There must be at least one row of Advertisement/Promotional Labeling Material. You may not delete this last row.");
+}
+</script>
+                                </event>
+                                <assist>
+                                    <speak>Delete this row: Click here or press the enter key to delete this row of Advertisement/Promotional Labeling Material information.</speak>
+                                </assist>
+                                <event activity="initialize" name="event__initialize">
+                                    <script contentType="application/x-javascript">
+this.resolveNode("traversal.#traverse").ref = "";
+</script>
+                                </event>
+                            </field>
+                            <?templateDesigner expand 1?>
+                        </subform>
+                        <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+                        <overflow leader="HeaderRow"/>
+                        <?templateDesigner expand 1?>
+                    </subform>
+                    <margin topInset="0mm"/>
+                    <traversal>
+                        <traverse operation="first" ref="materialTable[0]"/>
+                    </traversal>
+                    <?templateDesigner expand 0?>
+                </subform>
+                <subform name="AddNewRow" w="194.38mm">
+                    <draw h="0pt" name="L66" w="551pt" y="9.507mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <margin topInset="1.9406mm"/>
+                    <field h="4.021mm" name="btnAdd" w="23.071mm" x="169.792mm" y="3.63mm">
+                        <ui>
+                            <button highlight="push"/>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <border hand="right">
+                            <edge thickness="0.211mm"/>
+                            <fill>
+                                <color value="255,255,153"/>
+                            </fill>
+                            <corner thickness="0.211mm"/>
+                        </border>
+                        <bind match="none"/>
+                        <traversal>
+                            <traverse ref="Comments[0].T81[0]"/>
+                        </traversal>
+                        <event activity="click" name="event__click">
+                            <script contentType="application/x-javascript">
+var newRow = item7.materialTable._materialRow.addInstance(0);
+if (newRow != null)
+	xfa.host.setFocus(newRow.db_material_type);
+</script>
+                        </event>
+                        <assist>
+                            <speak>Click here or press the enter key to add an additional row of Advertisement/Promotional Labeling Material information.</speak>
+                        </assist>
+                    </field>
+                    <draw h="4.021mm" name="Text2" w="23.071mm" x="169.792mm" y="3.631mm">
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <value>
+                            <text>Add New Row</text>
+                        </value>
+                        <font size="7.5pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <traversal>
+                            <traverse ref="btnAdd[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 62564 8564 0 0 1417 1417 0 0?>
+                        <?renderCache.textRun 11 Add New Row 0 7700 7871 0 0 0 "Arial" 1 0 7500 ISO-8859-1?>
+                    </draw>
+                    <draw h="7.408mm" name="Text1" w="95.703mm" x="73.809mm" y="1.941mm">
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p>To delete a row, click the “Delete Row” button for that row (or press the enter key</p>
+                                    <p>if you’ve tabbed into the button). You cannot delete the last remaining row.</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <font baselineShift="0pt" posture="italic" size="7.5pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                        <traversal>
+                            <traverse ref="Text2[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 268450 18165 0 0 1417 1417 0 0?>
+                        <?renderCache.textRun 87 To delete a row, click the “Delete Row” button for that row (or press the enter key 0 1417 7361 0 0 0 "Arial" 0 1 7500 ISO-8859-1?>
+                        <?renderCache.textRun 78 if you’ve tabbed into the button). You cannot delete the last remaining row. 0 23045 16361 0 0 0 "Arial" 0 1 7500 ISO-8859-1?>
+                    </draw>
+                    <traversal>
+                        <traverse ref="Comments[0]"/>
+                    </traversal>
+                    <?templateDesigner expand 0?>
+                </subform>
+                <subform layout="tb" name="Comments" w="194.38mm">
+                    <draw minH="0.147in" name="T81" w="0.711in">
+                        <value>
+                            <text>f. Comments</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <margin leftInset="1.2294mm"/>
+                        <traversal>
+                            <traverse ref="db_comments[0]"/>
+                        </traversal>
+                    </draw>
+                    <field minH="52.086mm" name="db_comments" w="193.814mm">
+                        <ui>
+                            <textEdit multiLine="1">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font size="11pt" typeface="Times New Roman"/>
+                        <margin bottomInset="1.2294mm" leftInset="1.2294mm" rightInset="0mm" topInset="0mm"/>
+                        <assist>
+                            <speak>Please type your comments here.</speak>
+                        </assist>
+                        <traversal>
+                            <traverse ref="item8to9[0]"/>
+                        </traversal>
+                    </field>
+                    <draw h="0pt" name="L16" w="551pt">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.8pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <margin bottomInset="1.0566mm" leftInset="0mm" topInset="0.2716mm"/>
+                    <breakAfter/>
+                    <?templateDesigner expand 0?>
+                    <traversal>
+                        <traverse operation="first" ref="T81[0]"/>
+                        <traverse ref="item8to9[0]"/>
+                    </traversal>
+                </subform>
+                <subform name="item8to9">
+                    <draw h="0pt" name="L56" w="551pt" y="0.09mm">
+                        <value>
+                            <line>
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L52" w="371.001pt" x="0.001mm" y="5.022mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="120pt" name="L34" w="0pt" x="4.232mm" y="5.022mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L30" w="359.001pt" x="4.232mm" y="15.606mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L29" w="359.001pt" x="4.232mm" y="26.188mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="30pt" name="L37" w="0pt" x="66.322mm" y="26.188mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L31" w="359.001pt" x="4.232mm" y="36.772mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="30pt" name="L38" w="0pt" x="79.375mm" y="36.772mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="133pt" name="L35" w="0pt" x="130.881mm" y="0.26mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="133pt" name="L36" w="0pt" x="132.291mm" y="0.26mm">
+                        <value>
+                            <line>
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L53" w="176pt" x="132.291mm" y="5.022mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L54" w="176pt" x="132.291mm" y="17.153mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L55" w="176pt" x="132.291mm" y="29.565mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L23" w="551pt" y="47.356mm">
+                        <value>
+                            <line>
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw minH="0.162in" name="T25" w="2.324in" x="1.405mm" y="0.651mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">
+                                        8.
+                                        <span style="xfa-spacerun:yes">  </span>
+                                        Applicant’s (or Agent’s) Return Address
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="T41[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw h="0.151in" name="T41" w="2.927in" x="5.291mm" y="5.299mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p style="font-family:Arial">
+                                        Address 1
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        <span style="font-style:italic">(Street address, P.O. box, company name c/o)</span>
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.2pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_aplcnt_address1[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 210744 10872 0 0 0 0 0 0?>
+                        <?renderCache.textRun 10 Address 1  0 0 7822 0 0 0 "Arial" 0 0 8200 ISO-8859-1?>
+                        <?renderCache.textRun 44 (Street address, P.O. box, company name c/o) 0 39198 7822 0 0 0 "Arial" 0 1 8200 ISO-8859-1?>
+                    </draw>
+                    <draw h="0.147in" name="T39" w="2.661in" x="5.291mm" y="15.891mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p style="font-family:Arial">
+                                        Address 2
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        <span style="font-style:italic">(Apartment, suite, unit, building, floor, etc.)</span>
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_aplcnt_address2[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 191592 10584 0 0 0 0 0 0?>
+                        <?renderCache.textRun 10 Address 2  0 0 7620 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+                        <?renderCache.textRun 47 (Apartment, suite, unit, building, floor, etc.) 0 38242 7620 0 0 0 "Arial" 0 1 8000 ISO-8859-1?>
+                    </draw>
+                    <draw minH="0.147in" name="T48" w="0.24in" x="5.291mm" y="26.482mm">
+                        <value>
+                            <text>City</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_aplcnt_city[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.147in" name="T50" w="1.155in" x="67.369mm" y="26.482mm">
+                        <value>
+                            <text>State/Province/Region</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_aplcnt_state[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.147in" name="T49" w="0.438in" x="5.291mm" y="37.049mm">
+                        <value>
+                            <text>Country</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_aplcnt_country[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.147in" name="T51" w="0.986in" x="80.424mm" y="37.049mm">
+                        <value>
+                            <text>ZIP or Postal Code</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_aplcnt_zipcode[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.162in" name="T28" w="2.078in" x="133.332mm" y="0.651mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">9. Responsible Official’s (or Agent’s)</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="T43[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw h="0.147in" name="T43" w="2.101in" x="136.452mm" y="5.299mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p style="font-family:Arial">
+                                        a. Telephone Number
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        <span style="font-style:italic">(Include area code)</span>
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_aplcnt_phone[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 151272 10584 0 0 0 0 0 0?>
+                        <?renderCache.textRun 20 a. Telephone Number  0 0 7620 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+                        <?renderCache.textRun 19 (Include area code) 0 79602 7620 0 0 0 "Arial" 0 1 8000 ISO-8859-1?>
+                    </draw>
+                    <draw h="0.147in" name="T45" w="1.798in" x="136.452mm" y="17.723mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p style="font-family:Arial">
+                                        b. FAX Number
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        <span style="font-style:italic">(Include area code)</span>
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_aplcnt_fax[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 129456 10584 0 0 0 0 0 0?>
+                        <?renderCache.textRun 14 b. FAX Number  0 0 7620 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+                        <?renderCache.textRun 19 (Include area code) 0 57352 7620 0 0 0 "Arial" 0 1 8000 ISO-8859-1?>
+                    </draw>
+                    <draw minH="0.147in" name="T47" w="0.885in" x="136.452mm" y="29.839mm">
+                        <value>
+                            <text>c. Email Address</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_aplcnt_email[0]"/>
+                        </traversal>
+                    </draw>
+                    <field h="6.392mm" name="db_aplcnt_address1" w="124.657mm" x="5.292mm" y="9.136mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <traversal>
+                            <traverse ref="T39[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>Please type the first line of the applicant's return address here.</speak>
+                        </assist>
+                    </field>
+                    <field h="6.392mm" name="db_aplcnt_address2" w="124.657mm" x="5.292mm" y="19.614mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <traversal>
+                            <traverse ref="T48[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>Please type the second line of the applicant's return address here.</speak>
+                        </assist>
+                    </field>
+                    <field h="6.392mm" name="db_aplcnt_city" w="59.848mm" x="5.292mm" y="30.198mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <traversal>
+                            <traverse ref="T50[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>Please type the applicant's city here.</speak>
+                        </assist>
+                    </field>
+                    <field h="6.392mm" name="db_aplcnt_state" w="59.848mm" x="67.369mm" y="30.198mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <traversal>
+                            <traverse ref="T49[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>Please type the applicant's state, province, or region here.</speak>
+                        </assist>
+                    </field>
+                    <field h="6.392mm" name="db_aplcnt_country" w="73.025mm" x="5.291mm" y="40.964mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <traversal>
+                            <traverse ref="T51[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>Please type the applicant's country here.</speak>
+                        </assist>
+                    </field>
+                    <field h="6.392mm" name="db_aplcnt_zipcode" w="49.538mm" x="80.424mm" y="40.964mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <traversal>
+                            <traverse ref="T28[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>Please type the applicant's ZIP or postal code here.</speak>
+                        </assist>
+                    </field>
+                    <field h="6.393mm" name="db_aplcnt_phone" w="57.044mm" x="136.452mm" y="9.316mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <format>
+                            <picture>text{'('999')' 999-9999}</picture>
+                        </format>
+                        <assist>
+                            <speak>Please type the responsible official or agent's phone number here, including the area code.</speak>
+                        </assist>
+                        <traversal>
+                            <traverse ref="T45[0]"/>
+                        </traversal>
+                    </field>
+                    <field h="6.393mm" name="db_aplcnt_fax" w="57.044mm" x="136.452mm" y="21.471mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <format>
+                            <picture>text{'('999')' 999-9999}</picture>
+                        </format>
+                        <assist>
+                            <speak>Please type the responsible official or agent's facsimile number here, including the area code.</speak>
+                        </assist>
+                        <traversal>
+                            <traverse ref="T47[0]"/>
+                        </traversal>
+                    </field>
+                    <field h="10.896mm" name="db_aplcnt_email" w="57.044mm" x="136.452mm" y="33.83mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <format>
+                            <picture>text{'('999')' 999-9999}</picture>
+                        </format>
+                        <assist>
+                            <speak>Please type the responsible official or agent's e-mail address here.</speak>
+                        </assist>
+                        <traversal>
+                            <traverse ref="FormStart[0].db_nda_bla_nmbr_pt2[0]"/>
+                        </traversal>
+                    </field>
+                    <traversal>
+                        <traverse operation="first" ref="T25[0]"/>
+                    </traversal>
+                    <?templateDesigner expand 0?>
+                </subform>
+                <subform name="item10to12">
+                    <draw h="0pt" name="L24" w="551pt" y="1.14mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="48pt" name="L21" w="0pt" x="82.55mm" y="1.14mm">
+                        <value>
+                            <line slope="/">
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="48pt" name="L22" w="0pt" x="158.044mm" y="1.14mm">
+                        <value>
+                            <line slope="/">
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0pt" name="L32" w="551pt" y="18.074mm">
+                        <value>
+                            <line>
+                                <edge cap="butt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw minH="0.162in" name="T18" w="3.183in" x="1.405mm" y="1.358mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">10. Typed Name and Title of Responsible Official or Agent</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_res_name_title[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.162in" name="T19" w="2.517in" x="83.599mm" y="1.358mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">11. Signature of Responsible Official or Agent</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="Text3[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.162in" name="T20" w="0.515in" x="159.088mm" y="1.358mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">12. Date</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="db_sig_date[0]"/>
+                        </traversal>
+                    </draw>
+                    <margin topInset="0mm"/>
+                    <field h="11.068mm" name="db_res_name_title" w="75.507mm" x="5.773mm" y="6.226mm">
+                        <ui>
+                            <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </textEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <traversal>
+                            <traverse ref="T20[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>Please type the name and title of the responsible official or agent here.</speak>
+                        </assist>
+                    </field>
+                    <field h="11.07mm" name="db_res_signature" presence="invisible" w="54.853mm" x="88.377mm" y="6.227mm">
+                        <ui>
+                            <signature type="PDF1.6">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                                <manifest action="all"/>
+                            </signature>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <bind match="none"/>
+                        <assist>
+                            <speak>Click here or press the enter key to sign.</speak>
+                        </assist>
+                        <traversal>
+                            <traverse ref="item13[0]"/>
+                        </traversal>
+                    </field>
+                    <field h="11.07mm" name="db_sig_date" w="28.567mm" x="164.18mm" y="6.227mm">
+                        <ui>
+                            <dateTimeEdit hScrollPolicy="off">
+                                <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?>
+                                </border>
+                                <margin/>
+                            </dateTimeEdit>
+                        </ui>
+                        <font typeface="Times New Roman"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <value>
+                            <date/>
+                        </value>
+                        <format>
+                            <picture>date{MM/DD/YYYY}</picture>
+                        </format>
+                        <assist>
+                            <speak>Please type the responsible official's or agent's signature date, in 2 digit month / 2 digit day / 4 digit year.</speak>
+                        </assist>
+                        <traversal>
+                            <traverse ref="T19[0]"/>
+                        </traversal>
+                        <event activity="exit" name="event__exit">
+                            <script contentType="application/x-javascript">
+DocScripts.checkDate(this);
+</script>
+                        </event>
+                    </field>
+                    <field h="6.35mm" name="btnSign" w="12.7mm" x="144.153mm" y="9.027mm">
+                        <ui>
+                            <button highlight="push"/>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <border hand="right">
+                            <edge thickness="0.211mm"/>
+                            <fill>
+                                <color value="255,255,153"/>
+                            </fill>
+                            <corner thickness="0.211mm"/>
+                        </border>
+                        <bind match="none"/>
+                        <traversal>
+                            <traverse ref="db_res_signature[0]"/>
+                        </traversal>
+                        <assist>
+                            <toolTip>Click here or press the enter key to enable the signature field.</toolTip>
+                            <speak>Click here or press the enter key to enable the signature field.</speak>
+                        </assist>
+                        <event activity="click" name="event__click">
+                            <script contentType="application/x-javascript">if (DocScripts.ValidateForm() == true)
+{
+	var myDoc = event.target; 
+//	if (myDoc.dirty == true) {
+//		xfa.host.messageBox("Please save the form before signing, to ensure the proper saved name!");
+//	} else {
+//		xfa.host.messageBox("Please click anywhere in signature field to sign the form!\nThis will automatically save the form!");
+
+		//Enable the field
+		db_res_signature.presence = "visible";
+		db_res_signature.access = "open";
+
+        //Set focus
+        xfa.host.setFocus(db_res_signature);
+
+        //Disable the sign button
+		this.access = "readOnly";
+//    }
+}
+</script>
+                        </event>
+                    </field>
+                    <draw h="6.35mm" name="Text3" w="12.7mm" x="144.153mm" y="9.028mm">
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <value>
+                            <text>Sign</text>
+                        </value>
+                        <font typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <traversal>
+                            <traverse ref="btnSign[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 33166 15166 0 0 1417 1417 0 0?>
+                        <?renderCache.textRun 4 Sign 0 7167 11896 0 0 0 "Arial" 1 0 10000 ISO-8859-1?>
+                    </draw>
+                    <traversal>
+                        <traverse operation="first" ref="T18[0]"/>
+                        <traverse ref="item13[0]"/>
+                    </traversal>
+                    <?templateDesigner expand 0?>
+                </subform>
+                <subform name="item13">
+                    <draw h="0pt" name="L33" w="551pt" y="9.879mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="0.3pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw h="0.162in" name="T26" w="2.315in" x="1.405mm" y="0.201mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0">
+                                    <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">
+                                        13. For CBER Products Only
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        <span style="font-style:italic">(Check one)</span>
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8.8pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="#subform[0]"/>
+                        </traversal>
+                    </draw>
+                    <subform h="3.808mm" name="cber" w="37.961mm" x="69.946mm" y="4.45mm">
+                        <traversal>
+                            <traverse operation="first" ref="draft[0]"/>
+                        </traversal>
+                        <subform h="3.808mm" name="draft" w="11.85mm" x="0mm" y="0mm">
+                            <traversal>
+                                <traverse operation="first" ref="T56[0]"/>
+                                <traverse ref="final[0]"/>
+                            </traversal>
+                            <draw minH="0.147in" name="T56" w="0.29in" x="4.484mm" y="0mm">
+                                <value>
+                                    <text>Draft</text>
+                                </value>
+                                <ui>
+                                    <textEdit/>
+                                </ui>
+                                <para vAlign="middle"/>
+                                <font size="8pt" typeface="ArialMT"/>
+                                <traversal>
+                                    <traverse ref="db_draft[0]"/>
+                                </traversal>
+                            </draw>
+                            <field h="3.808mm" name="db_draft" w="4.024mm" x="0mm" y="0mm">
+                                <ui>
+                                    <checkButton size="2.8222mm">
+                                        <border presence="hidden">
+                                            <?templateDesigner StyleID apcb0?>
+                                        </border>
+                                    </checkButton>
+                                </ui>
+                                <font typeface="Myriad Pro"/>
+                                <margin leftInset="1mm" rightInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <value>
+                                    <integer>0</integer>
+                                </value>
+                                <items>
+                                    <integer>1</integer>
+                                    <integer>0</integer>
+                                    <integer>2</integer>
+                                </items>
+                                <assist>
+                                    <speak>If the C B E R product is a Part 1 Draft, check this box by pressing the space bar or number pad slash key.</speak>
+                                    <toolTip>If the CBER product is a Part 1 Draft, check this box by pressing the space bar or number pad slash key.</toolTip>
+                                </assist>
+                                <traversal>
+                                    <traverse ref="final[0]"/>
+                                </traversal>
+                                <event activity="change" name="event__change">
+                                    <script contentType="application/x-javascript">final.db_final.rawValue = 0;
+</script>
+                                </event>
+                            </field>
+                            <?templateDesigner expand 1?>
+                        </subform>
+                        <subform h="3.808mm" name="final" w="11.873mm" x="26.088mm" y="0mm">
+                            <traversal>
+                                <traverse operation="first" ref="T57[0]"/>
+                            </traversal>
+                            <draw minH="0.147in" name="T57" w="0.29in" x="4.507mm" y="0mm">
+                                <value>
+                                    <text>Final</text>
+                                </value>
+                                <ui>
+                                    <textEdit/>
+                                </ui>
+                                <para vAlign="middle"/>
+                                <font size="8pt" typeface="ArialMT"/>
+                                <traversal>
+                                    <traverse ref="db_final[0]"/>
+                                </traversal>
+                            </draw>
+                            <field h="3.808mm" name="db_final" w="4.024mm" x="0mm" y="0mm">
+                                <ui>
+                                    <checkButton size="2.8222mm">
+                                        <border presence="hidden">
+                                            <?templateDesigner StyleID apcb0?>
+                                        </border>
+                                    </checkButton>
+                                </ui>
+                                <font typeface="Myriad Pro"/>
+                                <margin leftInset="1mm" rightInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <value>
+                                    <integer>0</integer>
+                                </value>
+                                <items>
+                                    <integer>1</integer>
+                                    <integer>0</integer>
+                                    <integer>2</integer>
+                                </items>
+                                <assist>
+                                    <speak>If the C B E R product is a Part 2 Final, check this box by pressing the space bar or number pad slash key.</speak>
+                                    <toolTip>If the CBER product is a Part 2 Final, check this box by pressing the space bar or number pad slash key.</toolTip>
+                                </assist>
+                                <event activity="change" name="event__change">
+                                    <script contentType="application/x-javascript">draft.db_draft.rawValue = 0;
+</script>
+                                </event>
+                                <traversal>
+                                    <traverse ref="InConclusion[0]"/>
+                                </traversal>
+                            </field>
+                            <?templateDesigner expand 1?>
+                        </subform>
+                        <?templateDesigner expand 1?>
+                    </subform>
+                    <traversal>
+                        <traverse operation="first" ref="T26[0]"/>
+                        <traverse ref="InConclusion[0]"/>
+                    </traversal>
+                    <?templateDesigner expand 0?>
+                </subform>
+                <subform name="InConclusion">
+                    <draw h="0pt" name="L62" w="551pt" y="1.412mm">
+                        <value>
+                            <line>
+                                <edge cap="butt" thickness="1.2pt"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <draw minH="0.175in" name="T5" w="4.838in" x="36.533mm" y="3.683mm">
+                        <value>
+                            <text>This section applies only to requirements of the Paperwork Reduction Act of 1995.</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="9.5pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="T6[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw minH="0.182in" name="T6" w="5.777in" x="24.62mm" y="9.119mm">
+                        <value>
+                            <text>*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <font baselineShift="0pt" size="9.5pt" typeface="Arial" weight="bold"/>
+                        <traversal>
+                            <traverse ref="T7[0]"/>
+                        </traversal>
+                        <assist>
+                            <speak>asterisk DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW. asterisk</speak>
+                        </assist>
+                    </draw>
+                    <draw h="0.65in" name="T7" w="6.235in" x="19.388mm" y="14.554mm">
+                        <value>
+                            <text>The burden time for this collection of information is estimated to average 2 hours per response, including  the time to review instructions, search existing data sources, gather and maintain the data needed and  complete and review the collection of information. Send comments regarding this burden estimate or any  other aspect of this information collection, including suggestions for reducing this burden, to:</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="9.5pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="T11[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 448920 46800 0 0 0 0 0 0?>
+                        <?renderCache.textRun 108 The burden time for this collection of information is estimated to average 2 hours per response, including   0 0 9051 0 0 0 "Arial" 0 0 9500 ISO-8859-1?>
+                        <?renderCache.textRun 104 the time to review instructions, search existing data sources, gather and maintain the data needed and   0 0 20451 0 0 0 "Arial" 0 0 9500 ISO-8859-1?>
+                        <?renderCache.textRun 104 complete and review the collection of information. Send comments regarding this burden estimate or any   0 0 31851 0 0 0 "Arial" 0 0 9500 ISO-8859-1?>
+                        <?renderCache.textRun 96 other aspect of this information collection, including suggestions for reducing this burden, to: 0 0 43251 0 0 0 "Arial" 0 0 9500 ISO-8859-1?>
+                    </draw>
+                    <draw h="0.807in" name="T11" w="2.564in" x="67.369mm" y="32.055mm">
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p style="font-family:Arial">Department of Health and Human Services</p>
+                                    <p style="font-family:Arial">Food and Drug Administration</p>
+                                    <p style="font-family:Arial">Office of Chief Information Officer</p>
+                                    <p style="font-family:Arial">Paperwork Reduction Act (PRA) Staff</p>
+                                    <p style="font-family:Arial;font-style:italic">
+                                        <a href="mailto:PRAStaff@fda.hhs.gov">PRAStaff@fda.hhs.gov</a>
+                                    </p>
+                                </body>
+                            </exData>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="9.5pt" typeface="ArialMT"/>
+                        <traversal>
+                            <traverse ref="T16[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 184608 58104 0 0 0 0 0 0?>
+                        <?renderCache.textRun 40 Department of Health and Human Services  0 0 9003 0 0 0 "Arial" 0 0 9500 ISO-8859-1?>
+                        <?renderCache.textRun 29 Food and Drug Administration  0 0 20403 0 0 0 "Arial" 0 0 9500 ISO-8859-1?>
+                        <?renderCache.textRun 36 Office of Chief Information Officer  0 0 31803 0 0 0 "Arial" 0 0 9500 ISO-8859-1?>
+                        <?renderCache.textRun 36 Paperwork Reduction Act (PRA) Staff  0 0 43203 0 0 0 "Arial" 0 0 9500 ISO-8859-1?>
+                        <?renderCache.textRun 20 PRAStaff@fda.hhs.gov 0 0 54631 0 0 255 "Arial" 0 1 9500 ISO-8859-1?>
+                        <?renderCache.line 0 55497 97834 55497 0 0 255 315?>
+                    </draw>
+                    <draw h="0.332in" name="T16" w="5.778in" x="24.595mm" y="53.569mm">
+                        <value>
+                            <text>“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of information unless it displays a currently valid OMB number.”</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para hAlign="center" vAlign="middle"/>
+                        <font posture="italic" size="9.5pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="txt_delete_signature[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 416016 23904 0 0 0 0 0 0?>
+                        <?renderCache.textRun 101 “An agency may not conduct or sponsor, and a person is not required to respond to, a collection of  0 1524 9031 0 0 0 "Arial" 0 1 9500 ISO-8859-1?>
+                        <?renderCache.textRun 63 information unless it displays a currently valid OMB number.” 0 80236 20431 0 0 0 "Arial" 0 1 9500 ISO-8859-1?>
+                    </draw>
+                    <?templateDesigner expand 0?>
+                    <traversal>
+                        <traverse operation="first" ref="T5[0]"/>
+                        <traverse ref="txt_delete_signature[0]"/>
+                    </traversal>
+                </subform>
+                <field h="9mm" name="txt_delete_signature" presence="hidden" w="37mm">
+                    <ui>
+                        <textEdit>
+                            <border>
+                                <?templateDesigner StyleID aped3?>
+                                <edge stroke="lowered"/>
+                            </border>
+                            <margin/>
+                        </textEdit>
+                    </ui>
+                    <font typeface="Myriad Pro"/>
+                    <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                    <para vAlign="middle"/>
+                    <value>
+                        <text>False</text>
+                    </value>
+                    <traversal>
+                        <traverse ref="txt_validate[0]"/>
+                    </traversal>
+                </field>
+                <field h="9mm" name="txt_validate" presence="hidden" w="37mm">
+                    <ui>
+                        <textEdit>
+                            <border>
+                                <?templateDesigner StyleID aped3?>
+                                <edge stroke="lowered"/>
+                            </border>
+                            <margin/>
+                        </textEdit>
+                    </ui>
+                    <font typeface="Myriad Pro"/>
+                    <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                    <para vAlign="middle"/>
+                    <value>
+                        <text>True</text>
+                    </value>
+                    <traversal>
+                        <traverse ref="db_form_name[0]"/>
+                    </traversal>
+                </field>
+                <field h="9mm" name="db_form_name" presence="hidden" w="37mm">
+                    <ui>
+                        <textEdit>
+                            <border>
+                                <?templateDesigner StyleID aped3?>
+                                <edge stroke="lowered"/>
+                            </border>
+                            <margin/>
+                        </textEdit>
+                    </ui>
+                    <font typeface="Myriad Pro"/>
+                    <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                    <para vAlign="middle"/>
+                    <value>
+                        <text>2253</text>
+                    </value>
+                    <traversal>
+                        <traverse ref="db_form_version[0]"/>
+                    </traversal>
+                </field>
+                <field h="9mm" name="db_form_version" presence="hidden" w="37mm">
+                    <ui>
+                        <textEdit>
+                            <border>
+                                <?templateDesigner StyleID aped3?>
+                                <edge stroke="lowered"/>
+                            </border>
+                            <margin/>
+                        </textEdit>
+                    </ui>
+                    <font typeface="Myriad Pro"/>
+                    <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                    <para vAlign="middle"/>
+                    <value>
+                        <text>12/14</text>
+                    </value>
+                </field>
+                <breakBefore target="PageArea1" targetType="pageArea"/>
+                <breakAfter/>
+                <overflow target="PageArea2"/>
+                <traversal>
+                    <traverse operation="first" ref="FormStart[0]"/>
+                </traversal>
+                <?templateDesigner expand 0?>
+            </subform>
+            <variables>
+                <script contentType="application/x-javascript" name="DocScripts">
+function	requiredLength(field,minLength,maxLength,type)	{
+
+//   6-4-2013 DFG &amp; 6-6-2013 VCK	Copied and modified from FDA-2253
+// 
+//	type: 0 == numeric; 1 == alphanumeric; anything else == no character restrictions
+	var myString = field.rawValue;
+	var validString = true;
+	var numChars = myString.length;
+
+	//check that minLength &lt;= maxLength
+	if (minLength &gt; maxLength) {
+		xfa.host.messageBox("Parameter error: minLength &gt; maxLength");
+	} else {
+		if  ((myString &lt; 0 ) || ((numChars &gt; 0) &amp;&amp; (numChars &lt; minLength)) || (numChars &gt; maxLength))  { //check that length falls within the specified range
+			validString = false;
+		} else {
+			if (type == 0) { //numeric: ensure that all characters are digits
+				for (i = 0; i &lt; numChars; i++) {
+					var oneChar = myString.charAt(i);
+					if ((isNaN(oneChar)) || (oneChar == " ")) {
+						validString = false;
+					}
+				}
+			} else {
+				if (type == 1) { //alphanumeric: regular expression checks for non-alphanumeric characters
+					var myRegExp = /\W/;
+					if (myRegExp.test(myString)) {
+						validString = false;
+					}
+					for (i = 0; i &lt; numChars; i++) { //veto underscores ("alphanumeric" usually includes them)
+						var oneChar = myString.charAt(i);
+						if (oneChar == "_") {
+							validString = false;
+						}
+					}
+				}
+			}
+		}
+		if (validString == false)  { //Error messages vary depending on length requirements (absolute, maximum, specific range) and type
+			if (type == 0) { //numeric
+				if (minLength == maxLength) {
+					xfa.host.messageBox("Please enter a " + maxLength + "-digit number.");
+				} else if (minLength == 1) {
+					xfa.host.messageBox("Please enter a number of up to " + maxLength + " digits.");
+				} else {
+					xfa.host.messageBox("Please enter a number of between " + minLength + " and " + maxLength +  " digits.");
+				}
+			} else {
+				if (type == 1) { //alphanumeric
+					if (minLength == maxLength) {
+						xfa.host.messageBox("Please enter a " + maxLength + "-character alphanumeric string.");
+					} else if (minLength == 1) {
+						xfa.host.messageBox("Please enter an alphanumeric string of up to " + maxLength + " characters.");
+					} else {
+						xfa.host.messageBox("Please enter an alphanumeric string of between " + minLength + " and " + maxLength +  " characters.");
+					}
+				} else { //unrestricted
+					if (minLength == maxLength) {
+						xfa.host.messageBox("Please enter a " + maxLength + "-character string.");
+					} else if (minLength == 1) {
+						xfa.host.messageBox("Please enter a string of up to " + maxLength + " characters.");
+					} else {
+						xfa.host.messageBox("Please enter a string of between " + minLength + " and " + maxLength +  " characters.");
+					}
+				}
+			}
+			field.rawValue = ""; //clear field
+			xfa.host.setFocus(field); //refocus on field
+			false;
+		} else { true; }
+	}
+}
+
+function checkDate(field) {
+	
+	//  6-4-2013 DFG &amp; 6-6-2013 VCK - Written by Valerie. Checks date for anything stupid user can do.
+	var myString = field.rawValue;
+	var validString = true;
+	var numChars = myString.length;
+	var month;
+	var day;
+	var year;
+	var oneChar;
+	
+	if  ((myString &lt; 0) || (numChars &gt; 0 &amp;&amp; numChars &lt; 10) || (numChars &gt; 10) )  { //MM/DD/YYYY must be 10 digits long
+		validString = false;
+	} else  {
+		if (myString.charAt(2) == "/") { //MM/DD/YYYY
+			for (i=0; i &lt; 10 ; i++) {
+				oneChar = myString.charAt(i);
+				if (i == 2 || i == 5) {
+					if (oneChar != "/") {
+						validString = false;
+					}
+				} else if ((isNaN(oneChar)) || (oneChar == " ")) {
+					validString = false;
+				} else { //assign month, day, year values
+					month = parseInt(myString.substring(0,2));
+					day = parseInt(myString.substring(3,5));
+					year = parseInt(myString.substring(6));
+				}
+			}
+		} else { //YYYY-MM-DD ("invisible" date format when using the calendar selector)
+			for (i=0; i &lt; 10 ; i++) {
+				oneChar = myString.charAt(i);
+				if (i == 4 || i == 7) {
+					if (oneChar != "-") {
+						validString = false;
+					}
+				} else if ((isNaN(oneChar)) || (oneChar == " ")) {
+					validString = false;
+				} else { //assign year, month, day values
+					year = parseInt(myString.substring(0,4));
+					month = parseInt(myString.substring(5,7));
+					day = parseInt(myString.substring(8));
+				}
+			}
+		}
+		if (month &gt; 12) { //valid date check
+			validString = false;
+		} else {
+			if (month == 2) {
+				if ((year%400 == 0) || (year%4 == 0 &amp;&amp; year%100 != 0)) { //leap year
+					if (day &gt; 29) {
+						validString = false;
+					}
+				} else {
+					if (day &gt; 28) {
+						validString = false;
+					}
+				}
+			} else if (month == 4 || month == 6 || month == 9 || month == 11) {
+				if (day &gt; 30) {
+					validString = false;
+				}
+			} else if (day &gt; 31) {
+				validString = false;
+			}
+		}
+	}
+	if (validString == false)  {
+		xfa.host.messageBox("Please enter a valid date in 2-digit month / 2-digit day / 4-digit year (MM/DD/YYYY) format.");
+		field.rawValue = ""; //clear field
+		xfa.host.setFocus(field); //refocus on field
+		false;
+	} else { true; }
+}
+
+function ValidateForm()
+{ 
+    //Declare variables
+    var sResponse;        //String will hold validation information if needed
+    var SigInfo;          //Signature info object
+
+	 //CCR 1353 Regular Expression object to compare against application number
+	 var TestExp = new RegExp("^[0-9]{6}[-/][0-9]{1,4}$");
+
+    sResponse = "";
+    
+
+    //If the document has not changed since the last save then exit the function
+    //if (this.dirty == false)
+    //{
+    //    return true;
+    //}
+
+    //If the user chooses save as, document saves twice
+    //We need to disable 2 validation pop-ups
+     if (Page1.txt_validate.rawValue == "False") {
+        //Enable save for the second run through
+       Page1.txt_validate.rawValue  = "True";
+
+        //Exit the function
+        return false;
+     }
+	
+	//  *------------*------------*------------*------------*------------*------------*------------
+		
+    //First Part of validation, we will make sure that the
+    //Required fields are filled out
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+
+	
+    if (Page1.FormStart.db_sbmsn_date.rawValue == null || Page1.FormStart.db_sbmsn_date.rawValue == "") {
+        sResponse += "1. Date Submitted\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+
+    if (Page1.FormStart.db_nda_bla.rawValue == null || Page1.FormStart.db_nda_bla.rawValue == "") {
+        sResponse += "2a. Type of Number\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+
+    if (Page1.FormStart.db_nda_bla_nmbr.rawValue == null || Page1.FormStart.db_nda_bla_nmbr.rawValue == "") {
+        sResponse += "2b. NDA/ANDA/AADA or BLA/PMA Number\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+
+    if (Page1.FormStart.prodGrp.single.db_single_product.rawValue == 0 &amp;&amp; Page1.FormStart.prodGrp.multiple.db_multi_products.rawValue == 0) {
+        sResponse += "2c. Single or Multiple Product(s)\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+
+    if (Page1.item3to7.db_trade_name.rawValue == null || Page1.item3to7.db_trade_name.rawValue == "") {
+        sResponse += "3. Proprietary Name\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------		
+
+    if (Page1.item3to7.db_established_name.rawValue == null || Page1.item3to7.db_established_name.rawValue == "") {
+        sResponse += "4a. Established Name\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+
+    //if (Page1.item3to7.db_prdct_code.rawValue == null || Page1.item3to7.db_prdct_code.rawValue == "") {
+    //    sResponse += "4b. Product Code Number\n";
+    //}
+
+	//  *------------*------------*------------*------------*------------*------------*------------	
+
+    //if (Page1.item3to7.db_insert_date_id_nmbr.rawValue == null || Page1.item3to7.db_insert_date_id_nmbr.rawValue == "") {
+    //    sResponse += "5. Package Insert Date and ID Number\n";
+    //}
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+
+    if (Page1.item3to7.db_manufacturer_name.rawValue == null || Page1.item3to7.db_manufacturer_name.rawValue == "") {
+        sResponse += "6a. Manufacturer Name\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    //if (Page1.item3to7.db_license_nmbr.rawValue == null || Page1.item3to7.db_license_nmbr.rawValue == "") {
+    //    sResponse += "6b. License Number (Biologics)\n";
+    //}
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+		
+    if (Page1.item3to7.lbl.prof.db_professional.rawValue == 0 &amp;&amp; Page1.item3to7.lbl.cons.db_consumer.rawValue == 0) {
+        sResponse += "7a. Professional or Consumer\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+
+
+
+	if (xfa.resolveNode("Page1.item7.materialTable.materialRow[0].db_material_type").rawValue == null || xfa.resolveNode("Page1.item7.materialTable.materialRow[0].db_material_type").rawValue == "") {
+		sResponse += "7b-1. Material Type\n";
+	}
+	
+	if (xfa.resolveNode("Page1.item7.materialTable.materialRow[0].db_pub_date").rawValue == null || xfa.resolveNode("Page1.item7.materialTable.materialRow[0].db_pub_date").rawValue == "") {
+		sResponse += "7c-1. Dissemination/Publication Date\n";
+	}
+	if (xfa.resolveNode("Page1.item7.materialTable.materialRow[0].db_material_code").rawValue == null || xfa.resolveNode("Page1.item7.materialTable.materialRow[0].db_material_code").rawValue == "") {
+		sResponse += "7d-1. Material ID Code\n";
+	}
+	if (xfa.resolveNode("Page1.item7.materialTable.materialRow[0].db_material_desc").rawValue == null || xfa.resolveNode("Page1.item7.materialTable.materialRow[0].db_material_desc").rawValue == "") {
+		sResponse += "7e-1. Material Description\n";
+	}
+
+	var totalRows = xfa.resolveNode("item7.materialTable._materialRow").count;
+	for (var i = 1; i &lt; totalRows; i++) {
+		if ((xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_type").rawValue != null &amp;&amp; xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_type").rawValue != "") || (xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_pub_date").rawValue != null &amp;&amp; xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_pub_date").rawValue != "") || (xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_code").rawValue != null &amp;&amp; xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_code").rawValue != "") || (xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_desc").rawValue != null &amp;&amp; xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_desc").rawValue != "")) {
+			if (xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_type").rawValue == null || xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_type").rawValue == "") {
+				sResponse += "7b-" + (i+1) + ". Material Type\n";
+			}
+			if (xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_pub_date").rawValue == null || xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_pub_date").rawValue == "") {
+				sResponse += "7c-" + (i+1) + ". Dissemination/Publication Date\n";
+			}
+			if (xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_code").rawValue == null || xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_code").rawValue == "") {
+				sResponse += "7d-" + (i+1) + ". Material ID Code\n";
+			}
+			if (xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_desc").rawValue == null || xfa.resolveNode("Page1.item7.materialTable.materialRow[" + i + "].db_material_desc").rawValue == "") {
+				sResponse += "7e-" + (i+1) + ". Material Description\n";
+			}
+		}
+	}
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    //if (Page1.Comments.db_comments.rawValue == null || Page1.Comments.db_comments.rawValue == "") {
+    //    sResponse += "7f. Comments\n";
+    //}
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    if (Page1.item8to9.db_aplcnt_address1.rawValue == null || Page1.item8to9.db_aplcnt_address1.rawValue == "") {
+        sResponse += "8a. Address 1\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    if (Page1.item8to9.db_aplcnt_city.rawValue == null || Page1.item8to9.db_aplcnt_city.rawValue == "") {
+        sResponse += "8c. City\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    if (Page1.item8to9.db_aplcnt_state.rawValue == null || Page1.item8to9.db_aplcnt_state.rawValue == "") {
+        sResponse += "8d. State/Province/Region\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    if (Page1.item8to9.db_aplcnt_country.rawValue == null || Page1.item8to9.db_aplcnt_country.rawValue == "") {
+        sResponse += "8e. Country\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    if (Page1.item8to9.db_aplcnt_zipcode.rawValue == null || Page1.item8to9.db_aplcnt_zipcode.rawValue == "") {
+        sResponse += "8f. ZIP or Postal Code\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    if (Page1.item8to9.db_aplcnt_phone.rawValue == null || Page1.item8to9.db_aplcnt_phone.rawValue == "") {
+        sResponse += "9a. Telephone Number\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    if (Page1.item8to9.db_aplcnt_fax.rawValue == null || Page1.item8to9.db_aplcnt_fax.rawValue == "") {
+        sResponse += "9b. FAX Number\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    if (Page1.item8to9.db_aplcnt_email.rawValue == null || Page1.item8to9.db_aplcnt_email.rawValue == "") {
+        sResponse += "9c. Email Address\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    if (Page1.item10to12.db_res_name_title.rawValue == null || Page1.item10to12.db_res_name_title.rawValue == "") {
+        sResponse += "10. Typed Name and Title of Responsible Official or Agent\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+    if (Page1.item10to12.db_sig_date.rawValue == null || Page1.item10to12.db_sig_date.rawValue == "") {
+        sResponse += "12. Date\n";
+    }
+
+	//  *------------*------------*------------*------------*------------*------------*------------
+	
+
+	
+	
+
+    if (sResponse != "")
+    {
+
+        sResponse = "Please fill out or correct fields below before submitting the form:\n" + sResponse;
+        
+        //Display Notification
+        xfa.host.messageBox(sResponse);
+
+        //MAKE SIGNATURE FIELD READONLY
+        Page1.item10to12.db_res_signature.access = "readOnly";
+        Page1.item10to12.db_res_signature.presence = "hidden";
+        
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+   
+}
+</script>
+                <?templateDesigner expand 1?>
+            </variables>
+            <proto/>
+            <?templateDesigner expand 1?>
+            <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
+            <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 252 65 0003000B000C000F0010001100120013001400150016001700180019001A001B001C001D002400250026002700280029002B002C002F003000310032003300350036003700380039003B003D004400450046004700480049004A004B004C004E004F0050005100520053005400550056005700580059005A005B005C00B6 (),-./0123456789:ABCDEFHILMNOPRSTUVXZabcdefghiklmnopqrstuvwxy’?>
+            <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 244 61 00030006000B000C000D000F001100120013001400150016001700180019001B001D002400250026002700280029002A002B002C002F003000310032003300350036003700380039003A003C004400450046004700480049004A004B004C004E004F0050005100520053005400550056005700580059005A005C #()*,./01234568:ABCDEFGHILMNOPRSTUVWYabcdefghiklmnopqrstuvwy?>
+            <?renderCache.subset "Arial" 0 1 ISO-8859-1 4 184 52 0003000B000C000F0011001200230024002500260027002C003000320033003500360037003C004400450046004700480049004A004B004C004E004F0050005100520053005400550056005700580059005A005B005C00B300B400B6 (),./@ABCDIMOPRSTYabcdefghiklmnopqrstuvwxy“”’?>
+            <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 92 23 00010010001200130014001500160025002700330035004200450046004A004D0050005300540055005600580059 /12345DFRTadeilorstuwx?>
+            <?renderCache.subset "Times New Roman" 0 0 ISO-8859-1 4 108 27 0003000B000C001000130014001600170019001A00260028002900330036004500460048004A004B004C004F00510055005600580059 ()-013467CEFPSbceghilnrsuv?>
+        </subform>
+        <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.4/?>
+        <?templateDesigner Zoom 81?>
+        <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+        <?templateDesigner FormTargetVersion 33?>
+        <?templateDesigner DefaultLanguage JavaScript?>
+        <?templateDesigner DefaultRunAt client?>
+        <?acrobat JavaScript strictScoping?>
+        <?PDFPrintOptions embedViewerPrefs 0?>
+        <?PDFPrintOptions embedPrintOnFormOpen 0?>
+        <?PDFPrintOptions scalingPrefs 0?>
+        <?PDFPrintOptions enforceScalingPrefs 0?>
+        <?PDFPrintOptions paperSource 0?>
+        <?PDFPrintOptions duplexMode 0?>
+        <?templateDesigner DefaultPreviewType interactive?>
+        <?templateDesigner DefaultPreviewPagination simplex?>
+        <?templateDesigner XDPPreviewFormat 20?>
+        <?templateDesigner DefaultCaptionFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+        <?templateDesigner DefaultValueFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+        <?templateDesigner SaveTaggedPDF 1?>
+        <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+        <?templateDesigner SavePDFWithLog 0?>
+    </template>
+    
+    <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+        <xfa:data>
+            <FDA-2253>
+                <Page1>
+                    <FormStart>
+                        <db_nda_bla/>
+                        <db_nda_bla_nmbr/>
+                        <db_nda_bla_nmbr_pt2/>
+                        <prodGrp>
+                            <single>
+                                <db_single_product>0</db_single_product>
+                            </single>
+                            <multiple>
+                                <db_multi_products>0</db_multi_products>
+                            </multiple>
+                        </prodGrp>
+                        <db_sbmsn_date/>
+                    </FormStart>
+                    <item3to7>
+                        <lbl>
+                            <prof xfa:dataNode="dataGroup"/>
+                            <cons xfa:dataNode="dataGroup"/>
+                        </lbl>
+                        <db_trade_name/>
+                        <db_established_name/>
+                        <db_prdct_code/>
+                        <db_insert_date_id_nmbr/>
+                        <db_manufacturer_name/>
+                        <db_license_nmbr/>
+                    </item3to7>
+                    <item7>
+                        <materialTable>
+                            <HeaderRow xfa:dataNode="dataGroup"/>
+                            <materialRow>
+                                <db_material_type/>
+                                <db_pub_date/>
+                                <db_material_code/>
+                                <db_material_desc/>
+                            </materialRow>
+                        </materialTable>
+                    </item7>
+                    <AddNewRow xfa:dataNode="dataGroup"/>
+                    <Comments>
+                        <db_comments/>
+                    </Comments>
+                    <item8to9>
+                        <db_aplcnt_address1/>
+                        <db_aplcnt_address2/>
+                        <db_aplcnt_city/>
+                        <db_aplcnt_state/>
+                        <db_aplcnt_country/>
+                        <db_aplcnt_zipcode/>
+                        <db_aplcnt_phone/>
+                        <db_aplcnt_fax/>
+                        <db_aplcnt_email/>
+                    </item8to9>
+                    <item10to12>
+                        <db_res_name_title/>
+                        <db_sig_date/>
+                    </item10to12>
+                    <item13>
+                        <cber>
+                            <draft>
+                                <db_draft>0</db_draft>
+                            </draft>
+                            <final>
+                                <db_final>0</db_final>
+                            </final>
+                        </cber>
+                    </item13>
+                    <InConclusion xfa:dataNode="dataGroup"/>
+                    <txt_delete_signature>False</txt_delete_signature>
+                    <txt_validate>True</txt_validate>
+                    <db_form_name>2253</db_form_name>
+                    <db_form_version>12/14</db_form_version>
+                </Page1>
+                <db_professional>0</db_professional>
+                <db_consumer>0</db_consumer>
+            </FDA-2253>
+        </xfa:data>
+    </xfa:datasets>
+    
+    <sourceSet xmlns="http://www.xfa.org/schema/xfa-source-set/2.8/">
+        <?originalXFAVersion http://www.xfa.org/schema/xfa-source-set/1.0/?>
+    </sourceSet>
+    
+    <connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+        <?originalXFAVersion http://www.xfa.org/schema/xfa-connection-set/2.1/?>
+    </connectionSet>
+    
+    <localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+        <locale desc="English (United States)" name="en_US">
+            <calendarSymbols name="gregorian">
+                <monthNames>
+                    <month>January</month>
+                    <month>February</month>
+                    <month>March</month>
+                    <month>April</month>
+                    <month>May</month>
+                    <month>June</month>
+                    <month>July</month>
+                    <month>August</month>
+                    <month>September</month>
+                    <month>October</month>
+                    <month>November</month>
+                    <month>December</month>
+                </monthNames>
+                <monthNames abbr="1">
+                    <month>Jan</month>
+                    <month>Feb</month>
+                    <month>Mar</month>
+                    <month>Apr</month>
+                    <month>May</month>
+                    <month>Jun</month>
+                    <month>Jul</month>
+                    <month>Aug</month>
+                    <month>Sep</month>
+                    <month>Oct</month>
+                    <month>Nov</month>
+                    <month>Dec</month>
+                </monthNames>
+                <dayNames>
+                    <day>Sunday</day>
+                    <day>Monday</day>
+                    <day>Tuesday</day>
+                    <day>Wednesday</day>
+                    <day>Thursday</day>
+                    <day>Friday</day>
+                    <day>Saturday</day>
+                </dayNames>
+                <dayNames abbr="1">
+                    <day>Sun</day>
+                    <day>Mon</day>
+                    <day>Tue</day>
+                    <day>Wed</day>
+                    <day>Thu</day>
+                    <day>Fri</day>
+                    <day>Sat</day>
+                </dayNames>
+                <meridiemNames>
+                    <meridiem>AM</meridiem>
+                    <meridiem>PM</meridiem>
+                </meridiemNames>
+                <eraNames>
+                    <era>BC</era>
+                    <era>AD</era>
+                </eraNames>
+            </calendarSymbols>
+            <datePatterns>
+                <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+                <datePattern name="long">MMMM D, YYYY</datePattern>
+                <datePattern name="med">MMM D, YYYY</datePattern>
+                <datePattern name="short">M/D/YY</datePattern>
+            </datePatterns>
+            <timePatterns>
+                <timePattern name="full">h:MM:SS A Z</timePattern>
+                <timePattern name="long">h:MM:SS A Z</timePattern>
+                <timePattern name="med">h:MM:SS A</timePattern>
+                <timePattern name="short">h:MM A</timePattern>
+            </timePatterns>
+            <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+            <numberPatterns>
+                <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+                <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+                <numberPattern name="percent">z,zz9%</numberPattern>
+            </numberPatterns>
+            <numberSymbols>
+                <numberSymbol name="decimal">.</numberSymbol>
+                <numberSymbol name="grouping">,</numberSymbol>
+                <numberSymbol name="percent">%</numberSymbol>
+                <numberSymbol name="minus">-</numberSymbol>
+                <numberSymbol name="zero">0</numberSymbol>
+            </numberSymbols>
+            <currencySymbols>
+                <currencySymbol name="symbol">$</currencySymbol>
+                <currencySymbol name="isoname">USD</currencySymbol>
+                <currencySymbol name="decimal">.</currencySymbol>
+            </currencySymbols>
+            <typefaces>
+                <typeface name="Myriad Pro"/>
+                <typeface name="Minion Pro"/>
+                <typeface name="Courier Std"/>
+                <typeface name="Adobe Pi Std"/>
+                <typeface name="Adobe Hebrew"/>
+                <typeface name="Adobe Arabic"/>
+                <typeface name="Adobe Thai"/>
+                <typeface name="Kozuka Gothic Pro-VI M"/>
+                <typeface name="Kozuka Mincho Pro-VI R"/>
+                <typeface name="Adobe Ming Std L"/>
+                <typeface name="Adobe Song Std L"/>
+                <typeface name="Adobe Myungjo Std M"/>
+            </typefaces>
+        </locale>
+        <?originalXFAVersion http://www.xfa.org/schema/xfa-locale-set/2.1/?>
+    </localeSet>
+    <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.2-c001 63.139439, 2011/06/07-10:39:26        ">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  
+            <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+                         
+                <xmp:CreatorTool>Designer 6.5</xmp:CreatorTool>
+                         
+                <xmp:MetadataDate>2021-09-28T20:03:22Z</xmp:MetadataDate>
+                         
+                <dc:format>application/pdf</dc:format>
+                         
+                <dc:description>
+                                
+                    <rdf:Alt>
+                                       
+                        <rdf:li xml:lang="x-default">Transmittal of Advertisements and Promotional Labeling for Drugs and Biologics for Human Use</rdf:li>
+                                    
+                    </rdf:Alt>
+                             
+                </dc:description>
+                         
+                <dc:creator>
+                                
+                    <rdf:Seq>
+                                       
+                        <rdf:li>PSC Publishing Services</rdf:li>
+                                    
+                    </rdf:Seq>
+                             
+                </dc:creator>
+                         
+                <dc:title>
+                                
+                    <rdf:Alt>
+                                       
+                        <rdf:li xml:lang="x-default">FORM FDA 2253</rdf:li>
+                                    
+                    </rdf:Alt>
+                             
+                </dc:title>
+                         
+                <pdf:Producer>Designer 6.5</pdf:Producer>
+                         
+                <xmpMM:DocumentID>uuid:0dca4203-748f-42b9-ac81-61425fdf13db</xmpMM:DocumentID>
+                         
+                <xmpMM:InstanceID>uuid:bfdebc17-643c-4f48-9c59-bddd7b23f8da</xmpMM:InstanceID>
+                         
+                <pdfuaid:part>1</pdfuaid:part>
+                      
+            </rdf:Description>
+               
+        </rdf:RDF>
+    </x:xmpmeta>
+    <xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+   <annots/>
+</xfdf>
+    <PDFSecurity xmlns="http://ns.adobe.com/xtd/" accessibleContent="1" change="0" contentCopy="1" documentAssembly="0" formFieldFilling="1" metadata="0" modifyAnnots="1" print="1" printHighQuality="1"/>
+    <form xmlns="http://www.xfa.org/schema/xfa-form/2.8/" checksum="P22KOleGmr9lHVPYAFdeQPdEsU4=">
+        <subform name="FDA-2253">
+            <instanceManager name="_Page1"/>
+            <subform name="Page1">
+                <instanceManager name="_item7"/>
+                <subform name="item7">
+                    <instanceManager name="_materialTable"/>
+                    <subform name="materialTable">
+                        <instanceManager name="_materialRow"/>
+                        <subform name="materialRow">
+                            <field name="db_material_type">
+                                <assist>
+                                    <speak>Using F D A user codes, located on the information page, please enter the material type for the 1st material here.</speak>
+                                    <toolTip>Using FDA user codes, located on the information page, please enter the material type for the 1st material here.</toolTip>
+                                </assist>
+                            </field>
+                            <field name="db_pub_date">
+                                <assist>
+                                    <speak>Please type the dissemination or publication date of the 1st material in 2 digit month / 2 digit day / 4 digit year.</speak>
+                                    <toolTip>Please type the dissemination or publication date of the 1st material in 2 digit month / 2 digit day / 4 digit year.</toolTip>
+                                </assist>
+                            </field>
+                            <field name="db_material_code">
+                                <assist>
+                                    <speak>Please type the applicant's material I D Code for the 1st material here.</speak>
+                                    <toolTip>Please type the applicant's material ID Code for the 1st material here.</toolTip>
+                                </assist>
+                            </field>
+                            <field name="db_material_desc">
+                                <assist>
+                                    <speak>Please type the applicant's material description for the 1st material here.</speak>
+                                    <toolTip>Please type the applicant's material description for the 1st material here.</toolTip>
+                                </assist>
+                            </field>
+                        </subform>
+                    </subform>
+                </subform>
+            </subform>
+            <pageSet>
+                <pageArea name="PageArea1">
+                    <field name="CurrentPage">
+                        <value>
+                            <float>1.00000000</float>
+                        </value>
+                    </field>
+                    <field name="PageCount">
+                        <value>
+                            <float>2.00000000</float>
+                        </value>
+                    </field>
+                </pageArea>
+                <pageArea name="PageArea2">
+                    <field name="CurrentPage">
+                        <value>
+                            <float>2.00000000</float>
+                        </value>
+                    </field>
+                    <field name="PageCount">
+                        <value>
+                            <float>2.00000000</float>
+                        </value>
+                    </field>
+                </pageArea>
+            </pageSet>
+        </subform>
+    </form>
+</xdp:xdp>
+
